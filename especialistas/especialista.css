@@ -102,18 +102,18 @@ aside img{
                         height: auto;
                         left:690px;
                         top: -30px;}
-                          
+                     
 aside button{
                         margin-top: 50px;
                         text-align: center;
                         border-radius: 10px;
                         font-size: 20px;
-                        width: 175px;
+                        width: 188px;
                         height: 45px;
                         cursor: pointer;
                         margin-left: 30px;
                         font-family: 'Inder', sans-serif;}
-                        
+                      
 .botao1{
                         color:#fff;
                         background-color: #6146D9;}
@@ -282,6 +282,110 @@ aside button{
                         width: 500px;
                         margin-left: -70px;}
 
+
+
+                        #acessibilidade{
+                            position: fixed;
+                            width: 3%;
+                            height: 55px;
+                            background-color: #FFF;
+                            right: 0%;
+                            top: 250px;
+                            border-radius: 100% 0 0 100%;
+                            border: 1px solid #616161;
+                            cursor: pointer;
+                            z-index: 4;
+                            display: block;
+                          }
+                          
+                          #acessibilidade img{
+                            margin-left: 5px;
+                            margin-top: 10px;
+                            width: 80%;
+                          }
+                          
+                          #acessibilidade-hid{
+                            position: fixed;
+                            width: 3%;
+                            height: 250px;
+                            background-color: #fff;
+                            right: 0%;
+                            top: 230px;
+                            border-radius: 40px 0px 0 40px;
+                            border: 1px solid #616161;
+                            visibility: hidden;
+                            z-index: 5;
+                            display: block;
+                          }
+                          
+                          #acessibilidade-hid img{
+                            display: block;
+                            margin-left: 10%;
+                          }
+                          
+                          .acess1{
+                            width: 70%;
+                            padding-top: 20px;
+                            padding-left: 2px;
+                            cursor: pointer;
+                            z-index: 1;
+                          }
+                          
+                          .acess1-fake{
+                            width: 70%;
+                            margin-top: -24px;
+                            padding-left: 2px;
+                            cursor: pointer;
+                            z-index: 9999;
+                            visibility: hidden;
+                          }
+                          
+                          .acess2{
+                            width: 80%;
+                            padding-left:4px;
+                            padding-top: 10px;
+                          }
+                          
+                          .acess3{
+                            width: 65%;
+                            padding-left: 6px;
+                            padding-top: 10px;
+                          }
+                          
+                          .acess4{
+                            width:70%;
+                            padding-top: 10px;
+                            padding-left: 2px;
+                          }
+                          
+                          .acess5{
+                            width: 70%;
+                            padding-top: 15px;
+                            padding-left: 2px;
+                          }
+                          
+                          .acess6{
+                            width: 80%;
+                            padding-top: 20px;
+                            padding-left: 2px;
+                            cursor: pointer;
+                          }    
+                          
+#menu_responsivo{
+                            position: absolute;
+                            right: 1.5%;
+                            top: 35px;
+                           
+                           }                          
+                           #menu_responsivo{
+                            margin-top: -10px;
+                            margin-right: 3%;
+                            display: block;
+                          }
+
+
+                          #menu_responsivo{
+                            display: none;}
 /*
 .container{
     display: flex;
