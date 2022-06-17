@@ -10,7 +10,7 @@ img{                        width: 100%; }
   
 header{
                             position: absolute;
-                            font-family: 'Poppins', sans-serif;
+                            font-family: 'Inter',sans-serif;
                             top: 0;
                             width: 100%;
                             height: 90px;
@@ -37,7 +37,7 @@ nav{
                             width: 50%;
                             padding-top:20px;
                             margin-left: 20%;
-                            font-family: 'Inder', sans-serif;}
+                            font-family: 'Inder',sans-serif;}
     
 nav a{
                             justify-content:space-between;
@@ -58,7 +58,7 @@ nav a:hover{
                             background-color: #5E17EB;
                             color: white;
                             border-radius: 6px;
-                            font-family: 'Inder', sans-serif;
+                            font-family: 'Inder',sans-serif;
                             cursor: pointer;}
     
 .Login:hover{
@@ -70,26 +70,20 @@ nav a:hover{
                             color: #5E17EB;}
 
                         /*----------------------ASIDE FOTOS------------------------*/
-.fotos{
-                            display: flex;
-                            justify-content: space-evenly;
-                            margin-top: 150px;
+.fotos{                      
+                            margin-top: 20%;
                             width: 100%}
+
                         
-.fotos img:nth-child(2){
-                            width: 50vw;
-                            height: 650px;
-                            margin-top: -100px;}
-                        
-.fotos img:nth-child(1){
+.fotos img{
                             width: 50vw;
                             height: 500px;
                             margin-top: 20px;
-                            padding-left: 30px;}
+                            padding-left: 10px;}
                         
-.texto h2 {
+.fotos h2 {
                             position: absolute;
-                            left: 800px;
+                            left: 55%;
                             top:300px;
                             font-family: 'Inder';
                             font-style: normal;
@@ -98,15 +92,15 @@ nav a:hover{
                             line-height: 52px;
                             color: #9D6BFF;}
                         
-.texto p {
+.fotos p {
                             position: absolute;
-                            left: 789px;
+                            left: 55%;
                             top:400px;
                             font-family: 'Inder';
                             font-style: normal;
                             font-weight: 400;
-                            font-size: 24px;
-                            line-height: 23px;
+                            font-size: 30px;
+                            line-height: 40px;
                             color: #000000;
                             width: 40%;
                             margin-left: auto;
@@ -116,26 +110,26 @@ nav a:hover{
 
 .texto2{
                             text-align: center;
-                            margin-top: 150px;}
+                            margin-top: 100px;}
 
 .texto2 h1{
                             font-weight: normal;
                             color: #9D6BFF;
-                            font-size: 42px;
-                            font-family: 'Inder', sans-serif;
-                            line-height: 50px;}
+                            font-size: 56px;
+                            font-family: 'Inder';
+                            line-height: 40px;}
 .texto2 p{
                             text-align: left;
                             margin-left: 5%;
                             width: 90%;
-                            font-family: 'Inder', sans-serif;
-                            font-size: 24px;
-                            line-height: 30px;
+                            font-family: 'Inder';
+                            font-size: 30px;
+                            line-height: 45px;
                             font-style: normal;
                             margin-top: 50px;}
 
 .texto2 img{
-                            margin-top: 300px;
+                            margin-top: 100px;
                             width: 90%;
                             align-items: center;
                             justify-content: center;}
@@ -155,7 +149,7 @@ nav a:hover{
       
 .palavras-footer h3{    
                             font-size: 25px;
-                            font-family: Inder;
+                            font-family: 'Inder';
                             color: white;
                             font-weight: bolder;
                             margin-top: 60px;}
@@ -167,21 +161,21 @@ nav a:hover{
                             font-size: 19px;
                             margin-left: 13%;
                             padding: 7px;
-                            font-family: Inder;}
+                            font-family: 'Inder';}
       
 .plataforma{                margin-left: 5%;}
       
-.plataforma h3{             margin-bottom:20px;}
+.plataforma h3{             margin-bottom:px;}
       
 .plataforma a{
-                            width: 100%;
+                            width: 0%;
                             display: block;
-                            text-align: left;
+                         
                             color: white;
                             font-size: 19px;
                             margin-left: -3%;
                             padding: 7px;
-                            font-family: Inder;}
+                            font-family: 'Inder';}
       
 .plataforma a:hover{
                             color: #0b0020;
@@ -199,7 +193,7 @@ nav a:hover{
                             font-size: 19px;
                             margin-left: 13%;
                             padding: 7px;
-                            font-family: Inder;}
+                            font-family: 'Inder';}
       
 .social a:hover{
                             color:#0b0020;
@@ -250,7 +244,7 @@ nav a:hover{
                             justify-content: space-between;
                             color: white;
                             font-size: 15px;
-                            font-family: Inder;}
+                            font-family: 'Inder';}
       
 .ptd a{
                             margin-top: 0px;
@@ -263,3 +257,788 @@ nav a:hover{
                             padding-top: 80px;
                             width: 500px;
                             margin-left: -70px;}
+
+
+
+                            
+                        #acessibilidade{
+                          position: fixed;
+                          width: 3%;
+                          height: 55px;
+                          background-color: #FFF;
+                          right: 0%;
+                          top: 250px;
+                          border-radius: 100% 0 0 100%;
+                          border: 1px solid #616161;
+                          cursor: pointer;
+                          z-index: 4;
+                          display: block;
+                        }
+                        
+                        #acessibilidade img{
+                          margin-left: 5px;
+                          margin-top: 10px;
+                          width: 80%;
+                        }
+                        
+                        #acessibilidade-hid{
+                          position: fixed;
+                          width: 3%;
+                          height: 250px;
+                          background-color: #fff;
+                          right: 0%;
+                          top: 230px;
+                          border-radius: 40px 0px 0 40px;
+                          border: 1px solid #616161;
+                          visibility: hidden;
+                          z-index: 5;
+                          display: block;
+                        }
+                        
+                        #acessibilidade-hid img{
+                          display: block;
+                          margin-left: 10%;
+                        }
+                        
+                        .acess1{
+                          width: 70%;
+                          padding-top: 20px;
+                          padding-left: 2px;
+                          cursor: pointer;
+                          z-index: 1;
+                        }
+                        
+                        .acess1-fake{
+                          width: 70%;
+                          margin-top: -24px;
+                          padding-left: 2px;
+                          cursor: pointer;
+                          z-index: 9999;
+                          visibility: hidden;
+                        }
+                        
+                        .acess2{
+                          width: 80%;
+                          padding-left:4px;
+                          padding-top: 10px;
+                        }
+                        
+                        .acess3{
+                          width: 65%;
+                          padding-left: 6px;
+                          padding-top: 10px;
+                        }
+                        
+                        .acess4{
+                          width:70%;
+                          padding-top: 10px;
+                          padding-left: 2px;
+                        }
+                        
+                        .acess5{
+                          width: 70%;
+                          padding-top: 15px;
+                          padding-left: 2px;
+                        }
+                        
+                        .acess6{
+                          width: 80%;
+                          padding-top: 20px;
+                          padding-left: 2px;
+                          cursor: pointer;
+                        }    
+                        
+
+/* -----------------------------------------------------------------*/
+@media only screen and (min-width: 1021px) and (max-width: 1440px) {  
+  #acessibilidade{
+    top: 35%;
+  }
+
+
+}
+
+@media only screen and (min-width: 749px) and (max-width: 1024px) {  
+
+.logo{
+  width: 80%;
+}
+
+#acessibilidade{  top: 35%;}
+
+.Aside-texto img{
+  margin-left: -10%;
+  width: 70%;
+  justify-content: center;
+  display: flex;
+  align-items: center;}
+
+.Section-texto a{ margin-left: 60%;}
+
+
+#acessibilidade{
+  height: 40px;
+  top: 255px;
+  width: 40px;
+  
+}
+
+#acessibilidade img{
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 80%;
+}
+
+#acessibilidade-hid{
+  width: 5%;
+  height: 190px;
+  top: 255px;
+  border-radius: 60px 0px 0 40px;
+}
+
+#acessibilidade-hid img{
+  margin-left: 20%;
+  width: 23px;
+}
+
+.fotos p{
+  font-size: 28px;
+  line-height: 35px;
+
+}
+
+.texto2{
+  margin-top: 70px;
+}
+
+.texto2 h1{
+font-size: 56px;
+}
+
+.texto2 p{
+  line-height: 45px;
+  font-size: 30px;
+}
+
+.texto2 img{
+  margin-top: 40px;
+  width: 90vw;
+}
+}
+
+@media only screen and (min-width: 562px) and (max-width: 820px) {
+  
+
+
+  #acessibilidade{
+    height: 40px;
+    top: 200px;
+    width: 40px;
+    
+  }
+  
+  #acessibilidade img{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 80%;
+  }
+  
+  #acessibilidade-hid{
+    width: 5%;
+    height: 190px;
+    top: 200px;
+    border-radius: 60px 0px 0 40px;
+  }
+  
+  #acessibilidade-hid img{
+    margin-left: 20%;
+    width: 23px;
+  }
+
+  .fotos img{
+    margin-top: 150px;
+    width: 50vw;
+    height: 360px;
+  }
+
+  .fotos h2{
+    font-size: 2rem;
+  }
+
+  .fotos p{
+    font-size: 1.3rem;
+
+  }
+
+  .texto2{
+    margin-top: 70px;
+  }
+  
+  .texto2 h1{
+    font-size: 3rem;
+  }
+
+  .texto2 p{
+    font-size: 1.5em;
+  }
+
+  .texto2 img{
+    margin-top: 10%;
+    width: 90vw;
+  }
+  
+
+}
+
+@media only screen and (min-width:425px){ 
+  @media only screen and (max-width: 659px){
+  
+    .fotos img{
+      margin-top: 100px;
+      width: 85vw;
+      align-items: center;
+      margin-left: 8%;
+      height: 360px;
+    }
+  
+    .fotos h2{
+      font-size: 2rem;
+      margin-top: 70%;
+      margin-left: -35%;
+    }
+  
+    .fotos p{
+      font-size: 1.3rem;
+      margin-top: 70%;
+      margin-left: -45%;
+      width: 80%;
+      font-family: 'Inder';
+    }
+  
+    .texto2{
+      margin-top: 100%;
+    }
+    
+    .texto2 h1{
+      font-size: 2rem;
+    }
+  
+    .texto2 p{
+      font-size: 1.3rem;
+      font-family: 'Inder';
+
+    }
+  
+    .texto2 img{
+      margin-top: 10%;
+      width: 90vw;
+    }
+
+    .img17 img{
+      margin-top: 20px;
+    }
+
+    .img17 a{
+      position: absolute;
+      margin-left: 0;
+      margin-top: 23px;
+    }
+
+    #acessibilidade{
+      height: 40px;
+      top: 200px;
+      width: 40px;
+      
+    }
+    
+    #acessibilidade img{
+      margin-left: 5px;
+      margin-top: 5px;
+      width: 80%;
+    }
+    
+    #acessibilidade-hid{
+      width: 10%;
+      height: 190px;
+      top: 200px;
+      border-radius: 60px 0px 0 40px;
+    }
+    
+    #acessibilidade-hid img{
+      margin-left: 20%;
+      width: 23px;
+    }
+
+
+    .plataforma{
+      display: none;
+    }
+    .ptd{
+      display: none;
+    }
+   
+    .nome_centro{
+      display: none;
+    }
+   
+    #sec_footer{
+      margin-top: 90px;
+      height: 440px;
+    }
+    .social{
+      width: 100%;
+      margin-left: -1%;
+      margin-top: -20px;
+      height: 280px;
+      text-decoration: none;
+    }
+    .social h3{
+      font-size: 25px;
+      margin-left: 1%;
+    }
+    
+    .social p{
+      font-size: 17px;
+    }
+    .social img{
+      float: left;
+    }
+    .img14 a{
+      margin-top: -35px;
+      margin-left: 15%;
+      float: left;
+    }
+
+    .img14 img{
+      margin-top: -3px;
+    
+    
+    }
+    .img15 a{
+      margin-top: -35px;
+      margin-left: 15%;
+      padding-top: 15%;
+      float: left;
+    }
+
+    .img15 img{
+      margin-top: 5px;
+      margin-left: -80%;
+    
+    }
+    .img16 a{
+      margin-top: 55%;
+      padding-top: 26%;
+      margin-left: 15%;
+      float: left;
+    }
+
+    .img16 img{
+      margin-top: 15px;
+      margin-left: -80%;
+    
+    }
+    .contato{
+      width: 100%;
+      margin-left: -160%;
+      font-family: 'Inder';
+    }
+    .contato h3{
+      font-size: 25px;
+    }
+    .contato p{
+      font-size: 18px;
+    } 
+    .img17 p{
+      float: left;
+      margin-left: 37%;
+      margin-top: 0px;
+      padding-top: -200px;
+    }
+    .img18 a{
+      float: left;
+      margin-left: 37%;
+      font-size: 18px;
+    }
+
+    .plataforma{
+      display: none;
+    }
+    .ptd_nav a{
+      display: none;
+    }
+
+  
+    
+  }
+}
+
+
+@media only screen and (min-width:375px){ 
+  @media only screen and (max-width: 562px){
+
+
+    .fotos img{
+      margin-top: 100px;
+      width: 70vw;
+      align-items: center;
+      margin-left: 25%;
+      height: 360px;
+    }
+  
+    .fotos h2{
+      font-size: 2rem;
+      margin-top: 70%;
+      margin-left: -35%;
+    }
+  
+    .fotos p{
+      font-size: 1rem;
+      margin-top: 60%;
+      margin-left: 45%;
+      width: 80%;
+      font-family: 'Inder';
+    }
+  
+    .texto2{
+      margin-top: 130%;
+    }
+    
+    .texto2 h1{
+      font-size: 2rem;
+    }
+  
+    .texto2 p{
+      font-size: 0.8rem;
+      font-family: 'Inder';
+    }
+  
+    .texto2 img{
+      margin-top: 10%;
+      width: 90vw;
+    }
+
+    .img17 img{
+      margin-top: 20px;
+    }
+
+    .img17 a{
+      position: absolute;
+      margin-left: 0;
+      margin-top: 23px;
+    }
+
+    #acessibilidade{
+      height: 40px;
+      top: 260px;
+      width: 40px;
+      
+    }
+    
+    #acessibilidade img{
+      margin-left: 5px;
+      margin-top: 5px;
+      width: 80%;
+    }
+    
+    #acessibilidade-hid{
+      width: 10%;
+      height: 190px;
+      top: 230px;
+      border-radius: 60px 0px 0 40px;
+    }
+    
+    #acessibilidade-hid img{
+      margin-left: 10%;
+      width: 23px;
+    }
+
+
+    .plataforma{
+      display: none;
+    }
+    .ptd{
+      display: none;
+    }
+   
+    .nome_centro{
+      display: none;
+    }
+   
+    #sec_footer{
+      margin-top: 90px;
+      height: 440px;
+    }
+    .social{
+      width: 100%;
+      margin-left: -1%;
+      margin-top: -20px;
+      height: 280px;
+      text-decoration: none;
+    }
+    .social h3{
+      font-size: 25px;
+      margin-left: 1.5%;
+    }
+    
+    .social p{
+      font-size: 17px;
+    }
+    .social img{
+      float: left;
+    }
+    .img14 a{
+      margin-top: -35px;
+      margin-left: 15%;
+      float: left;
+    }
+
+    .img14 img{
+      margin-top: -3px;
+    
+    
+    }
+    .img15 a{
+      margin-top: -35px;
+      margin-left: 15%;
+      padding-top: 15%;
+      float: left;
+    }
+
+    .img15 img{
+      margin-top: 5px;
+      margin-left: -80%;
+    
+    }
+    .img16 a{
+      margin-top: -25%;
+      padding-top: 26%;
+      margin-left: 15%;
+      float: left;
+    }
+
+    .img16 img{
+      margin-top: 15px;
+      margin-left: -80%;
+    
+    }
+    .contato{
+      width: 100%;
+      margin-top: 230px;
+      margin-left: -160%;
+      font-family: 'Inder';
+    }
+    .contato h3{
+      font-size: 25px;
+    }
+    .contato p{
+      font-size: 18px;
+    } 
+    .img17 p{
+      float: left;
+      margin-left: 37%;
+      margin-top: 0px;
+      padding-top: -200px;
+    }
+    .img18 a{
+      float: left;
+      margin-left: 37%;
+      font-size: 18px;
+     
+    }
+
+    .plataforma{
+      display: none;
+    }
+    .ptd_nav a{
+      display: none;
+    }
+
+  }}
+
+
+  @media only screen and (min-width:320px){ 
+    @media only screen and (max-width: 562px){
+  
+  
+      .fotos img{
+        margin-top: 100px;
+        width: 70vw;
+        align-items: center;
+        margin-left: 15%;
+        height: 360px;
+      }
+    
+      .fotos h2{
+        font-size: 1.5rem;
+        margin-top: 80%;
+        margin-left: -25%;
+      }
+    
+      .fotos p{
+        font-size: 1rem;
+        margin-top: 70%;
+        margin-left: -45%;
+        width: 90%;
+        font-family: 'Inder';
+      }
+    
+      .texto2{
+        margin-top: 120%;
+      }
+      
+      .texto2 h1{
+        font-size: 2rem;
+        margin-left: 5%;
+
+      }
+    
+      .texto2 p{
+        font-size: 1rem;
+        font-family: 'Inder';
+        margin-left: 8%;
+
+      }
+    
+      .texto2 img{
+        margin-top: 10%;
+        width: 90vw;
+      }
+  
+      .img17 img{
+        margin-top: 20px;
+      }
+  
+      .img17 a{
+        position: absolute;
+        margin-left: 0;
+        margin-top: 23px;
+      }
+  
+      #acessibilidade{
+        height: 40px;
+        top: 270px;
+        width: 40px;
+        
+      }
+      
+      #acessibilidade img{
+        margin-left: 5px;
+        margin-top: 5px;
+        width: 80%;
+      }
+      
+      #acessibilidade-hid{
+        width: 10%;
+        height: 190px;
+        top: 270px;
+        border-radius: 60px 0px 0 40px;
+      }
+      
+      #acessibilidade-hid img{
+        margin-left: 10%;
+        width: 23px;
+      }
+  
+  
+      .plataforma{
+        display: none;
+      }
+      .ptd{
+        display: none;
+      }
+     
+      .nome_centro{
+        display: none;
+      }
+     
+      #sec_footer{
+        margin-top: 90px;
+        height: 440px;
+      }
+      .social{
+        width: 100%;
+        margin-left: -1%;
+        margin-top: -20px;
+        height: 280px;
+        text-decoration: none;
+      }
+      .social h3{
+        font-size: 25px;
+        margin-left: 1.5%;
+      }
+      
+      .social p{
+        font-size: 17px;
+      }
+      .social img{
+        float: left;
+      }
+      .img14 a{
+        margin-top: -35px;
+        margin-left: 15%;
+        float: left;
+      }
+  
+      .img14 img{
+        margin-top: -3px;
+      
+      
+      }
+      .img15 a{
+        margin-top: -35px;
+        margin-left: 15%;
+        padding-top: 15%;
+        float: left;
+      }
+  
+      .img15 img{
+        margin-top: 5px;
+        margin-left: -80%;
+      
+      }
+      .img16 a{
+        margin-top: -25%;
+        padding-top: 26%;
+        margin-left: 15%;
+        float: left;
+      }
+  
+      .img16 img{
+        margin-top: 15px;
+        margin-left: -80%;
+      
+      }
+      .contato{
+        width: 100%;
+        margin-top: 230px;
+        margin-left: -160%;
+        font-family: 'Inder';
+      }
+      .contato h3{
+        font-size: 25px;
+      }
+      .contato p{
+        font-size: 18px;
+      } 
+      .img17 p{
+        float: left;
+        margin-left: 37%;
+        margin-top: 0px;
+        padding-top: -200px;
+      }
+      .img18 a{
+        float: left;
+        margin-left: 37%;
+        font-size: 18px;
+       
+      }
+  
+      .plataforma{
+        display: none;
+      }
+      .ptd_nav a{
+        display: none;
+      }
+  
+    }}
