@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../especialistas/img/logo-ok.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="especialidades.css">
+    <meta name="author" content="Roberta da Silva">
+    <meta name="author" content="Estela Rodrigues">
+    <meta name="author" content="Cintya Sanini">
+    <meta name="author" content="Ademir Alves">
+    <meta name="author" content="Matheus Santos">
+    <meta name="author" content="Patrick Gonzles">
+    <meta name="author" content="Gabriel Carloto">
+    <link rel="stylesheet" href="perfil_user.css">
+    <script src="js/acessibilidade.js"></script>
+    <title>Página do Usuário</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_responsiva">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../especialidades/especialidades.html">Especialidades</a></li>
+                <li><a href="#">Profissionais</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Consultas</a></li>
+                <li><a href="#">Conversas</a></li>
+            </ul>
+        </nav>
+
+        <section id="topo">
+            <div class="fundo_nav">
+                <div class="logo">
+                    <a href="../index.html"><span style="color: #315A94;">Nova</span>Mente
+                </div>
+
+                <nav>
+                    <a href="../index.html">Home</a>
+                    <a href="../especialidades/especialidades.html">Especialidades</a>
+                    <a href="#">Profissionais</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Consultas</a>
+                    <a href="#">Conversas</a>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="id_infos_responsivo">
+            <div class="pessoa_responsivo">
+                <div>
+                    <img src="imgs/foto_perfil.png">
+                </div>
+
+                <div class="nome_responsivo">
+                    <p>Nome</p>
+                </div>
+
+                <div class="idade_responsivo">
+                    <p>00 anos</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="fundo_branco">
+            <div class="links">
+                <div class="lista">
+                    <ul>
+                        <li><a id="uljs1" href="#" onclick="perfiljs()">Perfil</a></li>
+                        <br>
+                        <li><a id="uljs2" href="#" onclick="redefinir_emailjs()">Redefinir e-email</a></li>
+                        <br>
+                        <li><a id="uljs3" href="#" onclick="redefinir_senhajs()">Redefinir senha</a></li>
+                        <br>
+                        <li><a id="uljs4" href="#" onclick="esqueci_senhajs()">Esqueci a senha</a></span></li>
+                        <br>
+                        <li><a id="uljs5" href="#" onclick="termo_compromissojs()">Termo de Compromisso</a></li>
+                        <br>
+                        <a href="#">Sair da conta</a>
+                    </ul>
+                </div>
+
+                <div class="barra">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="links_responsivo">
+                <div class="lista_responsivo">
+                    <ul>
+                        <li><a id="uljs1_responsivo" onclick="perfiljs_responsivo()">Perfil</a></li>
+                        <br>
+                        <li><a id="uljs2_responsivo" onclick="redefinir_emailjs_responsivo()">Redefinir e-email</a></li>
+                        <br>
+                        <li><a id="uljs3_responsivo" onclick="redefinir_senhajs_responsivo()">Redefinir senha</a></li>
+                        <br>
+                        <li><a id="uljs4_responsivo" onclick="esqueci_senhajs_responsivo()">Esqueci a senha</a></span></li>
+                        <br>
+                        <li><a id="uljs5_responsivo" onclick="termo_compromissojs_responsivo()">Termo de Compromisso</a></li>
+                        <br>
+                        <a>Sair da conta</a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="conteudo">
+                <div class="perfil">
+                    <div class="titulo">
+                        <p id="pjs1">Meu Perfil</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="fundo_card">
+                            <img id="cardjs" src="imgs/card_user.png">
+                        </div>
+                    </div>
+
+                    <div class="infos">
+                        <div class="pessoa">
+                            <div>
+                                <img src="imgs/foto_perfil.png">
+                            </div>
+
+                            <div class="nome">
+                                <p>Nome</p>
+                            </div>
+                        </div>
+
+                        <div class="dados">
+                            <div class="coluna1">
+                                <p>E-mail: <br>loremipsum@email.com</p>
+                                <p>Telefone: <br>(11) 00000-0000</p>
+                            </div>
+
+                            <div class="coluna2">
+                                <p>Data de Nascimento: <br>00/00/0000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="redefinir_email">
+                    <div class="titulo2">
+                        <p id="pjs2">Redefinir e-mail</p>
+                    </div>
+
+                    <div class="espaço_cinza1">
+                        <div class="forms1">
+                            <label>
+                                <div>
+                                    <div>
+                                        <p>Coloque seu novo e-mail:</p>
+                                    </div>
+                                    <div>
+                                        <input id="email" type="text" placeholder="Digite seu e-mail aqui">
+                                    </div>
+
+                                    <div>    
+                                        <p>Digite sua senha atual:</p>
+                                    </div>
+                                    <div>
+                                        <input id="senha" type="password" placeholder="Digite sua senha aqui">
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <div>
+                                        <input id="confirmar" type="button" value="Confirmar"/>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="redefinir_senha">
+                    <div class="titulo3">
+                        <p id="pjs3">Redefinir senha</p>
+                    </div>
+
+                    <div class="espaço_cinza2">
+                        <div class="forms2">
+                            <label>
+                                <div>
+                                    <div>
+                                        <p>Digite sua senha antiga:</p>
+                                    </div>
+                                    <div>
+                                        <input id="senha_antiga" type="password" placeholder="Digite sua senha aqui">
+                                    </div>
+
+                                    <div>    
+                                        <p>Digite sua nova senha:</p>
+                                    </div>
+                                    <div>
+                                        <input id="senha_nova" type="password" placeholder="Digite sua senha aqui">
+                                    </div>
+
+                                    <div>
+                                        <a class="esqueci" href="#" onclick="esqueci_senhajs_responsivo()">Esqueci minha senha</a>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <div>
+                                        <input id="confirmar" type="button" value="Confirmar"/>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="esqueci_senha">
+                    <div class="titulo4">
+                        <p id="pjs4">Esqueci a minha senha</p>
+                    </div>
+
+                    <div class="espaço_cinza3">
+                        <div class="forms3">
+                            <label>
+                                <div>
+                                    <div>
+                                        <p class="subtitulo4">Relaxa, enviaremos um link com o código para o seu e-mail.</p>
+                                    </div>
+                                    <div>
+                                        <input id="codigo" type="text" placeholder="Digite o código aqui">
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <div>
+                                        <input id="confirmar" type="button" value="Enviar"/>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="termo_compromisso">
+                    <div class="titulo5">
+                        <p id="pjs5">Termo de Compromisso</p>
+                    </div>
+
+                    <div class="espaço_cinza4">
+                        <div class="termos">
+                            <p>Nós da “Novamente” asseguramos em oferecer os melhores especialistas para que todos os nossos usuários tenham acesso a um tratamento digno e de qualidade, então esperamos que nossos utilizadores tenham boas condutas ao usufruir de nossos serviços, como:</p>
+            
+                            <br>
+            
+                            <ol class="ordenada">
+                                <li>Não realizar terapias simultâneas com psicólogos distintos, pois isso pode acabar prejudicando a melhoria na condição de saúde do usuário.</li>
+                                <li>Se sofrer qualquer tipo de ato preconceituoso durante alguma seção, denunciar o ocorrido para a nossa equipe.</li>
+                                <li>Sempre falar a verdade durante as seções para que nossos terapeutas consigam te ajudar.</li>
+                                <li>Seguir corretamente o horário de tomar os medicamentos psiquiátricos e caso algum rémedio esteja te fazendo mal, informar ao psiquiatra.</li>
+                                <li>Não deixar de realizar o pagamento aos profissionais pelos seus serviços oferecidos.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="conteudo_responsivo">
+                <div class="seta_back" onclick="seta_backjs()">
+                    <div>
+                        <img src="imgs/seta_back.png">
+                    </div>
+                </div>
+                
+                <div class="perfil_responsivo">
+                    <div class="infos_responsivo">
+                        <div class="dados_responsivo">
+                            <div class="coluna1_responsivo">
+                                <p>E-mail: <br>loremipsum@email.com</p>
+                            </div>
+
+                            <div class="coluna2_responsivo">
+                                <p>Telefone: <br>(11) 00000-0000</p>
+                            </div>
+
+                            <div class="coluna3_responsivo">
+                                <p>Data de Nascimento: <br>00/00/0000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="redefinir_email_responsivo">
+                    <div class="titulo2_responsivo">
+                        <p id="pjs2_responsivo">Redefinir e-mail</p>
+                    </div>
+
+                    <div class="espaço_cinza1_responsivo">
+                        <div class="forms1_responsivo">
+                            <label>
+                                <div>
+                                    <div>
+                                        <p>Coloque seu novo e-mail:</p>
+                                    </div>
+                                    <div>
+                                        <input id="email" type="text" placeholder="Digite seu e-mail aqui">
+                                    </div>
+
+                                    <div>    
+                                        <p>Digite sua senha atual:</p>
+                                    </div>
+                                    <div>
+                                        <input id="senha" type="password" placeholder="Digite sua senha aqui">
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <div>
+                                        <input id="confirmar" type="button" value="Confirmar"/>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="redefinir_senha_responsivo">
+                    <div class="titulo3_responsivo">
+                        <p id="pjs2_responsivo">Redefinir senha</p>
+                    </div>
+
+                    <div class="espaço_cinza2_responsivo">
+                        <div class="forms2_responsivo">
+                            <label>
+                                <div>
+                                    <div>
+                                        <p>Digite sua senha antiga:</p>
+                                    </div>
+                                    <div>
+                                        <input id="senha_antiga" type="password" placeholder="Digite sua senha aqui">
+                                    </div>
+
+                                    <div>    
+                                        <p>Digite sua nova senha:</p>
+                                    </div>
+                                    <div>
+                                        <input id="senha_nova" type="password" placeholder="Digite sua senha aqui">
+                                    </div>
+
+                                    <div>
+                                        <a class="esqueci" href="#" onclick="esqueci_senhajs_responsivo()">Esqueci minha senha</a>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <div>
+                                        <input id="confirmar" type="button" value="Confirmar"/>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="esqueci_senha_responsivo">
+                    <div class="titulo4_responsivo">
+                        <p id="pjs3_responsivo">Esqueci a minha senha</p>
+                    </div>
+
+                    <div class="espaço_cinza3_responsivo">
+                        <div class="forms3_responsivo">
+                            <label>
+                                <div>
+                                    <div>
+                                        <p class="subtitulo4">Relaxa, enviaremos um link com o código para o seu e-mail.</p>
+                                    </div>
+                                    <div>
+                                        <input id="codigo" type="text" placeholder="Digite o código aqui">
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <div>
+                                        <input id="confirmar" type="button" value="Enviar"/>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="termo_compromisso_responsivo">
+                    <div class="titulo5_responsivo">
+                        <p id="pjs4_responsivo">Termo de Compromisso</p>
+                    </div>
+
+                    <div class="espaço_cinza4_responsivo">
+                        <div>
+                            <p>Nós da “Novamente” asseguramos em oferecer os melhores especialistas para que todos os nossos usuários tenham acesso a um tratamento digno e de qualidade, então esperamos que nossos utilizadores tenham boas condutas ao usufruir de nossos serviços, como:</p>
+            
+                            <br>
+            
+                            <ol class="ordenada">
+                                <li>Não realizar terapias simultâneas com psicólogos distintos, pois isso pode acabar prejudicando a melhoria na condição de saúde do usuário.</li>
+                                <br>
+                                <li>Se sofrer qualquer tipo de ato preconceituoso durante alguma seção, denunciar o ocorrido para a nossa equipe.</li>
+                                <br>
+                                <li>Sempre falar a verdade durante as seções para que nossos terapeutas consigam te ajudar.</li>
+                                <br>
+                                <li>Seguir corretamente o horário de tomar os medicamentos psiquiátricos e caso algum rémedio esteja te fazendo mal, informar ao psiquiatra.</li>
+                                <br>
+                                <li>Não deixar de realizar o pagamento aos profissionais pelos seus serviços oferecidos.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="acess0">
+            <div class="acessibilidade" >
+              <img src="imgs/imgacessiblidade0.png" onclick="fecha_abre1()"/>
+            </div>
+
+            <div class="acessibilidade-hid">
+                <div>
+                    <img class="acess1"  src="imgs/imgacessibilidade1.png" onclick="darkmode()"/>
+                    <img class ="acess1-fake" src="imgs/imgacessibilidadedark1.png" onclick="normalmode()">
+                </div>
+                <div>
+                    <img class="acess2" src="imgs/imgacessibilidade2.png" onclick="baixavisao()"/>
+                    <img class="acess2-fake" src="imgs/imgacessibilidade2.png" onclick="normalvisao()"/>
+                </div>
+                <img class="acess3" src="imgs/imgacessibilidade3.png"/>
+                <img class="acess4" src="imgs/imgacessibilidade4.png"/>
+                <img class="acess5" src="imgs/imgacessibilidade5.png"/>
+                <img class="acess6" src="imgs/imgacessibilidade6.png"  onclick="fecha_abre2()"/>
+            </div>
+    </main>
+
+    <div class="acess5">
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper">
+            </div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
