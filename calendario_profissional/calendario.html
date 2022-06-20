@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../especialistas/img/logo-ok.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="calendario.css">
+    <meta name="author" content="Roberta da Silva">
+    <meta name="author" content="Estela Rodrigues">
+    <meta name="author" content="Cintya Sanini">
+    <meta name="author" content="Ademir Alves">
+    <meta name="author" content="Matheus Santos">
+    <meta name="author" content="Patrick Gonzles">
+    <meta name="author" content="Gabriel Carloto">
+    <title>Especialidades</title>
+
+    <script src="js/especialidades.js" type="text/javascript"></script>
+    <script src="js/mobile_nav.js" type="text/javascript"></script>
+
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+</head>
+<body>
+    <main>
+        <header class="centralizador_nav">
+            <section class="nav_espec"><!--aba de menus da nav-->
+                <nav class="titulo_nav">
+                    <a href="../index.html"> <span class="title_deco">Nova<span class="rosa_nav">Mente</span></span></a><!--titulo-->
+                </nav>
+                <nav class="elementos_nav">
+                    <a href="../enter/enter.html">Home</a><!--opçoes do menu-->
+                    <a href="../especialidades/especialidades.html">Especialidades</a>
+                    <a href="#">Profissionais</a>
+                    <a href="../blog_paciente/blog-noticias/blog-noticias.html">Blog</a>
+                    <a href="calendario.html">Consultas</a>
+                    <a href="../receitas/receitas.html">Receitas</a>
+                </nav>
+            </section>
+            
+
+            <section class="fundo_perfil_especialista"><!--perfil especialista-->
+                <article class="divisor_perfil_nav">
+                    <div class="foto_perfil"> <img src="img/Ellipse 56.png" > </div>
+                    <div class="nome_perfil"> 
+                        <article class="nome_especialista"><p>Paola Bert</p></article> 
+                        <article class="cargo"><p>Terapeuta</p></article>
+                        <article class="conf"><img src="img/Component 6.png"><a href="../perfil_user/perfil_user.html">Editar Perfil</a href="../perfil_user/perfil_user.html"></article>
+                    </div>
+                </article>
+            </section>
+            <section class="elementos_lateral"><!--acessibilidade e darkmode-->
+                <section class="esquerdo_lateral"> 
+                    <article class="blocoBranco"> 
+                        <div class="dentro1"> 
+                            <img src="img/img.png"/>
+                        </div><p>Libras</p>
+                    </article>
+                   <article class="blocoBranco"> 
+                        <div class="dentro2">
+                            <img src="img/acessibilidade (3).png"/> 
+                        </div><p>AudioDescrição</p>
+                    </article>
+                    <article class="blocoBranco"> 
+                        <div class="dentro3"> 
+                            <img src="img/acessibilidade (5).png"/> 
+                        </div><p>Modo escuro</p>
+                    </article>
+                </section>
+                <section class="direito_lateral">  
+                    <article class="blocoBranco"> 
+                        <div class="dentro4"> 
+                            <img src="img/acessibilidade (2).png"/> 
+                        </div><p>Urgente</p>
+                    </article>
+                    <article class="blocoBranco"> 
+                        <div class="dentro5"> 
+                            <img src="img/acessibilidade (6).png"/> 
+                        </div><p>Baixa visão</p>
+                    </article>
+                    <article class="blocoBranco"> 
+                        <div class="dentro6"> 
+                            <img src="img/image-removebg-preview (84).png"/> 
+                        </div><p>Daltonismo</p>
+                    </article>
+                </section>
+            </section>
+        </header>
+       
+
+<!--VLIBRAS--> 
+    
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+      </div>
+</div>
+
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+
+<section class="acess0">
+<div id="acessibilidade" >
+<img src="img/imgacessiblidade0.png" onclick="fecha_abre1()"/>
+</div>
+
+<div id="acessibilidade-hid">
+<div>
+  <img class="acess1"  src="img/imgacessibilidade1.png" onclick="darkmode()"/>
+  <img class ="acess1-fake" src="img/imgacessibilidadedark1.png" onclick="normalmode()"></div>
+<img class="acess2" src="img/imgacessibilidade2.png"/>
+<img class="acess3" src="img/imgacessibilidade3 copy.png"/>
+<img class="acess4" src="img/imgacessibilidade4.png"/>
+<img class="acess5" src="img/imgacessibilidade5.png"/>
+<img class="acess6" src="img/imgacessibilidade6.png"  onclick="fecha_abre2()"/>
+</div>
+</section>
+          
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </main>
+</body>
+</html>
+
+
+     
+        
+
+
+
+
+
+
+
+
+
+
+
+<!-- Widget em linha do Calendly - início -->
+<div class="calendly-inline-widget"  data-url="https://calendly.com/novamente/sessao" style="min-width:320px;height:630px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Widget em linha do Calendly - fim -->
+
+
+</body>
+</html>

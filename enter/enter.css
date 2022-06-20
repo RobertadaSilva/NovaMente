@@ -1,0 +1,283 @@
+*{
+    border: 0;
+    margin:0;
+    padding:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+body{
+    background-color: #9D6BFF;
+    overflow-x: hidden;
+}
+
+.navpai{
+    width: 90vw;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho{
+    position: relative;
+    width: 80vw;
+    height: 13vh;
+    display: flex;
+    align-items:center;
+}
+
+.navbar{
+    font-family: 'Inder',sans-serif;
+    width: 70vw;
+    height: 6vh;
+    background-color: #fff;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 100vw;
+    margin-left: 17vw;
+}
+
+.logo {
+    width: 15vw;
+    height: 7.5vh;
+    margin-left: 2vw;
+    margin-top: -0.5;
+    display: flex;
+    align-items: center;
+}
+
+.nova{   
+    font-size: 19px;               
+    color: #315a94;
+    text-decoration: none;}
+
+.nova:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+.logo p{
+    font-size: 1.2vw;
+    
+}
+
+nav a:hover{
+    color: #24065f;
+  }
+
+.mente{
+    color: #5E17EB;
+  }
+
+.navlinks{
+    width: 48vw;
+    text-align: center;
+    margin-top: -0.5%;
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navlinks a{
+    font-size: 1.21vw;
+    color: #5F5F5F;
+    text-decoration: none;
+}
+
+.homeroxa {
+    color: #5E17EB;
+}
+
+.profilepic{
+    width: 3.5vw;
+    height: 7.5vh;
+    border-radius: 100vw;
+    margin-left: 2vw;
+    background-image:url(images/fotoperfil.png);
+    background-size: cover;
+    cursor: pointer;
+    
+    
+}
+
+.mensagem{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textocuidando {
+    width: 50vw;
+    height: 30vh;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.logodois{
+    width: 20vw;
+    height: 15vh;;
+    margin: 0 auto;
+    margin-top: 2vh;
+}
+
+.logodois img {
+    width: 6.5vw;
+    height: 15vh;
+}
+
+.ola{
+    font-size: 1.6vw;
+}
+
+.imagens{
+    width: 80vw;
+    height: 40vh;
+    background-color: #F1F1F1;
+    position: absolute;
+    left:10vw;
+    top:65vh;
+    border-radius: 4vw;
+    display: flex;
+    align-items: center;
+}
+
+.imgarea1{
+    width: 33vw;
+    height: 35vh;
+    border-radius: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5vw;
+    flex-direction: column;
+
+    
+}
+
+.imgarea2{
+    width: 25vw;
+    height: 35vh;
+    border-radius: 4vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+}
+
+.imgarea3{
+    width: 33vw;
+    height: 35vh;
+    border-radius: 4vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 5vw;
+ 
+}
+
+.imgarea1 a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #000;
+}
+.imgarea2 a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #000;
+}
+.imgarea3 a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.rodape{
+    background-color: #fff;
+    width: 100vw;
+    height: 33vh;
+    margin-top: 5vh;
+}
+
+#acessibilidade{
+    position: fixed;
+    width: 3%;
+    height: 55px;
+    background-color: #FFF;
+    right: 0%;
+    top: 250px;
+    border-radius: 100% 0 0 100%;
+    border: 1px solid #616161;
+    cursor: pointer;
+    z-index: 4;
+    display: block;}
+
+#acessibilidade img{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 80%;}
+
+#acessibilidade-hid{
+    position: fixed;
+    width: 3%;
+    height: 250px;
+    background-color: #fff;
+    right: 0%;
+    top: 230px;
+    border-radius: 40px 0px 0 40px;
+    border: 1px solid #616161;
+    visibility: hidden;
+    z-index: 5;
+    display: block;}
+
+#acessibilidade-hid img{
+    display: block;
+    margin-left: 10%;}
+
+.acess1{
+
+    padding-top: 20px;
+    padding-left: 2px;
+    cursor: pointer;
+    z-index: 1;}
+
+.acess1-fake{
+    width: 70%;
+    margin-top: -24px;
+    padding-left: 2px;
+    cursor: pointer;
+    z-index: 9999;
+    visibility: hidden;}
+
+.acess2{
+    width: 80%;
+    padding-left:4px;
+    padding-top: 10px;}
+
+.acess3{
+    width: 65%;
+    padding-left: 6px;
+    padding-top: 10px;}
+
+.acess4{
+    width:70%;
+    padding-top: 10px;
+    padding-left: 2px;}
+
+.acess5{
+    width: 70%;
+    padding-top: 15px;
+    padding-left: 2px;}
+
+.acess6{
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 2px;
