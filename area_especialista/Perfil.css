@@ -1,0 +1,727 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*Importação da fonte*/
+@font-face {
+    font-family: "Inter";
+    src: url("Fontes/Inter-Light.ttf");
+}
+main{
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+}
+/*Navegação especialista*/
+nav{
+    background-color: #585858;
+    width: 50vw;
+    height: 10vh;
+    margin-left: 4vw;
+    margin-top: 8vh;
+    border-radius: 2vh;
+}
+/*Conteudo perfil especialista*/
+.conteudo{
+    width:100vw;
+    height: 260vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.edicao_perfil{
+    background-color: #FFFFFF;
+    width: 70vw;
+    height:280vh;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+}
+.titulo_perfil{
+    width:15vw;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+.titulo_perfil h1{
+    font-family: "Inter";
+    font-weight: bold;
+    color: #9D6BFF;
+    font-size: 4vh;
+}
+.nome_sobre{
+    background-color: #FFF;
+    width: 70vw;
+    height:50vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+.nome{
+    background-color: #9D6BFF;
+    width:25vw;
+    height: 50vh;
+    border-radius: 2vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foto{
+    width:10vw;
+    height: 20vh;
+    background-color: blue;
+    margin-top: 5vh;
+}
+.descricao_nome{
+    width: 15vw;
+    height: 10vh;
+    margin-top: 5vh;
+    background-color: #9D6BFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.descricao_nome h1{
+    font-size: 3vh;
+    font-family: "Inter";
+    color: #FFF;
+}
+.descricao_nome p{
+    font-size: 2vh;
+    font-family: "Inter";
+    color: #FFF;
+}
+.sobre{
+    background-color: #FFF;
+    width: 35vw;
+    height:40vh;
+    margin-left: 2.5vw;
+    border-radius: 1vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    border: #000 0.1vh solid;
+}
+.sobre_titulo{
+    width:20vw;
+    height:5vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+}
+.sobre_titulo h1{
+    font-family: "Inter";
+    color: #9D6BFF;
+    font-size: 3vh;
+
+}
+input{
+    background-color: #F1F1F1;
+    width: 33vw;
+    height: 32vh;
+    margin-left: 1vw;
+    border: #000 1px solid;
+    border-radius: 1vh;
+    font-family: "Inter";
+    color: #585858;
+}
+.preco_idioma_disp{
+    background-color: #FFF;
+    width: 70vw;
+    height:50vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+.preco_idioma{
+    background-color: #FFF;
+    height:50vh;
+    width:25vw;
+    margin-left: 5vw;
+    border-radius: 2vw;
+}
+.preco{
+    background-color: #9D6BFF;
+    width: 25vw;
+    height: 15vh;
+    border-radius: 2vw;
+}
+.titulo_preco{
+    width: 25vw;
+    height: 6vh;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: #000 0.1vh solid;
+    
+}
+.titulo_preco h1{
+    font-family: "Inter";
+    color: #9D6BFF;
+    font-size: 3vh;
+    margin-left: 1vw;
+}
+.valor{
+    height:10vh;
+    width:25vw;
+    border-radius: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.valor h1{
+    font-family: "Inter";
+    color: #FFFFFF;
+    font-size: 4vh;
+}
+.idioma{
+    background-color: #FFFFFF;
+    width: 25vw;
+    height: 30vh;
+    margin-top: 5vh;
+    border-radius: 1vw;
+    border: #000 0.1vh solid;
+}
+.idioma_titulo{
+    width:20vw;
+    height:5vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.idioma_titulo h1{
+    font-family: "Inter";
+    color: #9D6BFF;
+    font-size: 3vh;
+}
+.input_idiomas{
+    width: 23vw;
+    height: 23vh;
+    margin-left: 1vw;
+    background-color: #f1f1f1;
+}
+.disponibilidade{
+    background-color: #FFF;
+    width: 35vw;
+    height:50vh;
+    margin-left: 2.5vw;
+    border-radius: 1vw;
+    border: #000 0.1vh solid;
+}
+.disponibilidade_titulo{
+    width:25vw;
+    height:6vh;
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.disponibilidade_titulo h1{
+    font-family: "Inter";
+    color: #9D6BFF;
+    font-size: 3vh;
+}
+.horarios{
+    background-color: #FFF;
+    width: 33vw;
+    height: 5vh;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.horario{
+    height: 5vh;
+    width: 5vw;
+    background-color: #9D6BFF;
+    border: #000 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.semana{
+    height: 5vh;
+    width: 3vw;
+    background-color: #9D6BFF;
+    border: #000 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.horario p{
+    font-family: "Inter";
+
+}
+.semana p{
+    font-family: "Inter";
+
+}
+.formacao{
+    background-color: #FFF;
+    width: 70vw;
+    height:40vh;
+    margin-top: 5vh;
+}
+.formacao_especialista{
+    background-color: #FFF;
+    width: 35vw;
+    height:40vh;
+    margin-left: 32.5vw;
+    border-radius: 1vw;
+    border: #000 0.1vh solid;
+}
+.formacao_titulo{
+    width:25vw;
+    height:6vh;
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.formacao_titulo h1{
+    font-family: "Inter";
+    color: #9D6BFF;
+    font-size: 3vh;
+}
+.experiencia{
+    background-color: #FFF;
+    width: 70vw;
+    height:40vh;
+    margin-top: 5vh;
+}
+.experiencia_profissional{
+    background-color: #FFF;
+    width: 35vw;
+    height:40vh;
+    margin-left: 32.5vw;
+    border-radius: 1vw;
+    border: #000 0.1vh solid;
+}
+.experiencia_titulo{
+    width:25vw;
+    height:6vh;
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.experiencia_titulo h1{
+    font-family: "Inter";
+    color: #9D6BFF;
+    font-size: 3vh;
+}
+.especialidades{
+    background-color: #FFF;
+    width: 70vw;
+    height:40vh;
+    margin-top: 5vh;
+}
+.especialidades_especialista{
+    background-color: #FFF;
+    width: 35vw;
+    height:40vh;
+    margin-left: 32.5vw;
+    border-radius: 1vw;
+    border: #000 0.1vh solid;
+}
+.especialidades_titulo{
+    width:25vw;
+    height:6vh;
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.especialidades_titulo h1{
+    font-family: "Inter";
+    color: #9D6BFF;
+    font-size: 3vh;
+}
+.perfil_usuario_responsivo{
+    display: none;
+}
+/*Responsivo*/
+@media only screen and (min-width: 319px) and (max-width: 767px) {
+    /*Main*/
+    main{
+        width: 100vw;
+    }
+    /*Nav responsiva*/
+    nav{
+        margin-top: 0;
+        margin-left: 0;
+        width: 100vw;
+        height: 10vh;
+        border-radius: 0;
+        background-color: #ffffff;
+        border: #000 0.1vh solid;
+    }
+    /*Perfil usuário*/
+    .perfil_usuario_responsivo{
+        display: block;
+        width:100vw;
+        height:10vh;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .menu_acessibilidade{
+        width:8vw;
+        height: 10vh;
+        background-color: #EBEBEB;
+        border-top-left-radius: 5vw;
+        border-bottom-left-radius: 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: #000 1px solid;
+    }
+    .icone_acessibilidade{
+        width: 5vw;
+        height: 6vh;
+        background-color: #EBEBEB;
+        margin-left: 2vw;
+    }
+    .icone_acessibilidade img{
+        width: 100%;
+        height: 100%;
+    }
+    /*Tag container*/
+    .conteudo{
+        width: 100vw;
+        margin-top: 5vh;
+    }
+    .edicao_perfil{
+        width: 90vw;
+    }
+    .titulo_perfil{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        background-color: #ffffff;
+        margin-left: 0;
+    }
+    .nome_sobre{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        height:100vh;
+        flex-direction: column;
+        background-color: #FFFFFF;
+    }
+    .nome{
+        width:50vw;
+        margin-left: 0;
+    }
+    .foto{
+        width: 25vw;
+        height: 25vh;
+    }
+    .descricao_nome{
+        width: 50vw;
+        align-items: center;
+        justify-content: center;
+        background-color: #9D6BFF;
+    }
+    .sobre{
+        margin-top: 5vh;
+        margin-left: 0;
+        width: 50vw;
+
+    }
+    .preco_idioma_disp{
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFFFFF;
+        height: 110vh;
+        width: 90vw;
+    }
+    .preco_idioma{
+        margin-left: 0;
+        width: 50vw;
+    }
+    .preco{
+        width: 50vw;
+    }
+    .titulo_preco{
+        width: 50vw;
+    }
+    .valor{
+        width: 50vw;
+    }
+    .idioma{
+        width: 50vw;
+    }
+    .disponibilidade{
+        margin-left: 0;
+        margin-top: 5vh;
+    }
+    .disponibilidade{
+        width: 50vw;
+    }
+    .horarios{
+        width: 50vw;
+        margin-left: 0;
+    }
+    .semana{
+        width:5vw;
+    }
+    .semana p{
+        font-size: 2.3vh;
+    }
+    .horario{
+        width: 7vw;
+    }
+    .horario p{
+        font-size: 2.3vh;
+    }
+    .formacao{
+        width: 90vw;
+        margin-left: 0;
+        margin-top: 5vh;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formacao_especialista{
+        width: 50vw;
+        margin-left: 0;
+    }
+    .experiencia{
+        width: 90vw;
+        margin-left: 0;
+        margin-top: 5vh;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .experiencia_profissional{
+        width: 50vw;
+        margin-left: 0;
+    }
+    .experiencia_titulo{
+        width: 50vw;
+    }
+    .especialidades{
+        width: 90vw;
+        margin-left: 0;
+        margin-top: 5vh;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .especialidades_especialista{
+        width: 50vw;
+        margin-left: 0;
+    }
+    input{
+        width:47.5vw;
+    }
+    .input_idiomas{
+        width: 47.5vw;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    main{
+        width: 100vw;
+    }
+    /*Nav responsiva*/
+    nav{
+        margin-top: 0;
+        margin-left: 0;
+        width: 100vw;
+        height: 10vh;
+        border-radius: 0;
+        background-color: #FFFFFF;
+        border: #000 0.1vh solid;
+    }
+    /*Perfil usuário*/
+    .perfil_usuario_responsivo{
+        display: block;
+        width:100vw;
+        height:10vh;
+        background-color: #ebebeb;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .menu_acessibilidade{
+        width:8vw;
+        height: 10vh;
+        background-color: #EBEBEB;
+        border-top-left-radius: 5vw;
+        border-bottom-left-radius: 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: #000 0.1vh solid;
+    }
+    .icone_acessibilidade{
+        width: 5vw;
+        height: 7vh;
+        background-color: #ebebeb;
+        margin-left: 2vw;
+    }
+    .icone_acessibilidade img{
+        width: 100%;
+        height: 100%;
+    }
+    /*Tag container*/
+    .conteudo{
+        width: 100vw;
+        margin-top: 5vh;
+    }
+    .edicao_perfil{
+        width: 90vw;
+    }
+    .titulo_perfil{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        background-color: #FFFFFF;
+        margin-left: 0;
+    }
+    .nome_sobre{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        height:100vh;
+        flex-direction: column;
+        background-color: #ffffff;
+    }
+    .nome{
+        width:50vw;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .foto{
+        width: 25vw;
+        height: 35vh;
+    }
+    .descricao_nome{
+        width: 50vw;
+        align-items: center;
+        justify-content: center;
+        background-color: #9D6BFF;
+    }
+    .sobre{
+        margin-top: 5vh;
+        margin-left: 0;
+        width: 50vw;
+
+    }
+    .preco_idioma_disp{
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFFFFF;
+        height: 110vh;
+        width: 90vw;
+    }
+    .preco_idioma{
+        margin-left: 0;
+        width: 50vw;
+    }
+    .preco{
+        width: 50vw;
+    }
+    .titulo_preco{
+        width: 50vw;
+    }
+    .valor{
+        width: 50vw;
+    }
+    .idioma{
+        width: 50vw;
+    }
+    .disponibilidade{
+        margin-left: 0;
+        margin-top: 5vh;
+    }
+    .disponibilidade{
+        width: 50vw;
+    }
+    .horarios{
+        width: 50vw;
+        margin-left: 0;
+    }
+    .semana{
+        width:5vw;
+    }
+    .semana p{
+        font-size: 2.3vh;
+    }
+    .horario{
+        width: 7vw;
+    }
+    .horario p{
+        font-size: 2.3vh;
+    }
+    .formacao{
+        width: 90vw;
+        margin-left: 0;
+        margin-top: 5vh;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formacao_especialista{
+        width: 50vw;
+        margin-left: 0;
+    }
+    .experiencia{
+        width: 90vw;
+        margin-left: 0;
+        margin-top: 5vh;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .experiencia_profissional{
+        width: 50vw;
+        margin-left: 0;
+    }
+    .experiencia_titulo{
+        width: 50vw;
+    }
+    .especialidades{
+        width: 90vw;
+        margin-left: 0;
+        margin-top: 5vh;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .especialidades_especialista{
+        width: 50vw;
+        margin-left: 0;
+    }
+    input{
+        width:47.5vw;
+    }
+    .input_idiomas{
+        width: 47.5vw;
+    }
+
+}
