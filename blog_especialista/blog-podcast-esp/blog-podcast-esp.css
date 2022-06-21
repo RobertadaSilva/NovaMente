@@ -1,0 +1,462 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+@font-face{
+	font-family: inder;
+	src: url(fontes/Inder-Regular.ttf);
+}
+
+@font-face{
+	font-family: inter;
+    src: url(fontes/Inter-Regular.ttf);
+}
+
+main, html{
+  position: relative;
+  background: #E5E5E5;
+  height: auto;
+  width: 100%;
+}
+
+.container{
+    background-image: url(imagens/home-deco.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    width: 100%;
+    height: auto;
+    margin-bottom: 250px;
+}
+
+/* header*/
+
+header{
+    position: relative;
+    width: 82%;
+    height: 57px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: inter;
+    font-size: 20px;
+    left: 54px;
+    top: 39px;
+}
+
+.nav-title{
+    width: 20%;
+    height: 30px;
+    margin: auto;
+}
+  
+.nav-title a{
+    text-decoration: none;
+    color:#315a94;
+}
+  
+.title-purple{
+    color: #9D6BFF;
+}
+  
+.nav-elements{
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.nav-elements a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/*final da header*/
+
+
+/*área de opçôes*/
+
+.container-options{
+    position: relative;
+    width: 62%;
+    height: 200px;
+    float: left;
+    left: 30px;
+    top: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container-options img{
+    width: 95%;
+}
+
+
+/*área do perfil*/
+        
+.perfil{
+    width: 10%;
+    height: 250px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    float: right;
+    margin-right: 100px;
+    margin-top: 120px;
+}
+        
+        
+.info-user img{
+    width: 101px;
+    height: 101px;
+    padding-bottom: 10px;
+}
+          
+.perfil h1{
+    font-family: inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+          
+.perfil p{
+    font-family: inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+          
+.edit-area{
+    display: flex;
+    flex-direction: row;
+}
+          
+.edit-area a{
+    text-decoration: none;
+    padding-left: 5px;
+}
+          
+.edit-area img{
+    width: 15px;
+    height: 15px; 
+}
+        
+/*fim da área do usuário*/
+
+/*área de conteúdo*/
+
+.box-content{
+    width: 66%;
+    height: auto;
+    background: #FFFFFF;
+    border: 1px solid #CDCDCD;
+    border-radius: 30px;
+    margin-left: 42px;
+    margin-top: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: inter;
+
+}
+
+.comment-box{
+    position: relative;
+    width: 90%;
+    height: auto;
+    background: #F4F4F4;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.icon-comment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+.icon-comment img{
+    width: 60px;
+    height: 60px;
+}
+
+.icon-comment textarea{
+    border-radius: 40px;
+    width: 85%;
+    height: 60px;
+}
+
+.row hr{
+    border: 1px solid #9E9E9E;
+    width: 90%;
+    margin: auto;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.options-comment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+  
+.icon-post{
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .text-comment{
+    display: inline-block;
+  }
+  
+  .text-comment h4{
+    padding-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 19px;
+  }
+  
+  .text-comment p{
+    padding-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+  }
+  
+  .podcast{
+    text-align: center;
+    padding-bottom: 15px;
+  }
+/* fim da área conteúdo*/
+
+
+/*área de pacientes*/
+
+.area-pacientes{
+    width: 23%; /*só colocar em % que arruma */
+    height: auto;
+    background-color: #E5E5E5;
+    float: right;
+    margin-top: -880px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #E0CBCB;
+}
+
+.paciente-indice{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #9D6BFF;
+}
+
+.divisoria{
+    width: 100%;
+    height: 30px;
+}
+
+.paciente{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #444444;
+}
+
+/* fim da área do paciente*/
+
+
+
+/*footer*/
+
+
+#sec_footer{
+    width: 100%;
+    height: 400px;;
+    background-color: #9D6BFF;
+    margin-top: 22vh;
+    clear: right;
+  }
+  
+  .img13{
+    position: absolute;
+    top: 134.5vh;
+    left: 76vw;
+  }
+  
+  .palavras-footer{
+    width: 68vw;
+    display: flex;
+    flex-direction: row;
+    float: left;
+    justify-content: space-around;
+  }
+  
+  .palavras-footer h3{
+    font-size: 25px;
+    font-family: Inder;
+    color: white;
+    font-weight: bolder;
+    margin-top: 7vh;
+  
+   }
+  
+  .palavras-footer p{
+    width: 99vw;
+    text-align: left;
+    color: white;
+    font-size: 19px;
+    margin-left: 8.5vw;
+    padding: 0.6vw;
+    font-family: Inder;
+  }
+  
+  .plataforma{
+    margin-left: 5vw;
+  }
+  
+  .plataforma h3{
+    margin-bottom:0.5vh;
+  }
+  
+  .plataforma a{
+    width: 13vw;
+    display: block;
+    text-align: left;
+    color: white;
+    font-size: 19px;
+    margin-left: -0.5vw;
+    padding: 0.3vw;
+    font-family: Inder;
+    text-decoration: none;
+  }
+  
+  .plataforma a:hover{
+    color: #0b0020;
+    cursor: pointer;
+  }
+  
+  .social{
+    width: 13vw;
+    margin-left: 1vw;
+    padding-left: 4.5vw;
+  }
+  
+  .social h3{
+    margin-bottom: 1vh;
+  }
+  
+  .social a{
+    width: 10vw;
+    display: block;
+    text-align: left;
+    color: white;
+    font-size: 19px;
+    margin-left: 1.5vw;
+    padding: 0.5vw;
+    font-family: Inder;
+    text-decoration: none;
+  }
+  
+  .social a:hover{
+    color:#0b0020;
+    cursor: pointer;
+  }
+  
+  .social img{
+    float: left;
+    margin-top: 0.5vh;
+    margin-right: 0.5vw;
+  }
+  
+  .contato{
+    width: 25vw;
+  }
+  
+  .contato h3{
+    margin-bottom: 1vh;
+    margin-left: 7.5vw;
+  }
+  
+  .contato p{
+    width: 40vw;
+    padding-left: 1.5vw;
+  }
+  
+  .contato img{
+    float: left;
+    margin-top: 0.7vh;
+    margin-left: 7vw;
+    margin-right: 0.4vw;
+  }
+  
+  .ptd_nav{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 7vw;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+    font-family: Inder;
+  }
+  
+  .ptd a{
+    margin-left: -3%;
+    margin-top: 20vh;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .ptd a:hover{
+    color: #0b0020;
+  }
+  
+  #menu_responsivo{
+    display: none;
+  }
