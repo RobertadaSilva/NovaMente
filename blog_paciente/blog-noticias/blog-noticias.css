@@ -35,7 +35,7 @@ header{
   height: 57px;
   background-color: #FFFFFF;
   border-radius: 50px;
-  left: 54px;
+  margin-left: 9%;
   top: 39px;
   display: flex;
   flex-direction: row;
@@ -48,6 +48,8 @@ header{
   width: 20%;
   height: 30px;
   margin: auto;
+  font-size: 27px;
+
 }
 
 .nav-title a{
