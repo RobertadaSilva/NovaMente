@@ -6,7 +6,19 @@
 }
 
 
-body{                           overflow-x: hidden;}
+@font-face{
+  font-family: inder;
+  src: url(fontes/Inder-Regular.ttf);
+}
+
+@font-face{
+  font-family: inter;
+  src: url(fontes/Inter-Regular.ttf);
+}
+
+body{                           overflow-x: hidden;} 
+
+img{                            width: 100%; }
 
 
 header a {
@@ -46,13 +58,13 @@ nav {
                                 background-color: #9D6BFF;
                                 color: white;
                                 border-radius: 5px;
-                                font-family: Inder;
+                                font-family: 'Inder';
                                 cursor: pointer;
                                 margin-right: 35px;}
 
 .login:hover{
                                 transform: scale(1.1);
-                                transition: all 1s;}
+                                transition: all 1s;                               }
   
 .nav-list {
                                 list-style: none;
@@ -71,15 +83,14 @@ nav {
                                 margin: 8px;
                                 transition: 0.3s;}
 
-.nav-list active{               position: absolute;
-}
+.nav-list active{               position: absolute;}
 
 .Aside-texto h2{
                                 position: absolute;
                                 top: 200px;
                                 left: 47%;
                                 font-weight: normal;
-                                font-family: 'Inder';
+                                font-family: inder;
                                 font-size: 3rem;
                                 color: blueviolet;
                                 font-style: normal;
@@ -104,7 +115,7 @@ nav {
                                 justify-content:flex-end;
                                 margin-left: 70%;
                                 text-align: center;
-                                font-family: 'Inder';
+                                font-family: inder;
                                 font-style: normal;
                                 font-weight: 400;
                                 font-size: 1.2rem;
@@ -115,7 +126,7 @@ nav {
                                 text-align: left;
                                 margin-left: 5% ;
                                 margin-top: 50px;
-                                font-family: 'Inder';
+                                font-family: inder;
                                 font-style: normal;
                                 font-weight: 400;
                                 font-size: 20px;
