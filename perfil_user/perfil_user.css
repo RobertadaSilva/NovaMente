@@ -1,72 +1,84 @@
-* {
-    margin:0;
-    border:0;
-    padding:0;
-}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  @font-face{
+  font-family: inder;
+  src: url(fontes/Inder-Regular.ttf);
+  }
+  
+  @font-face{
+  font-family: inter;
+    src: url(fontes/Inter-Regular.ttf);
+  }
+  
+  main, html{
+  position: relative;
+  background: #E5E5E5;
+  height: auto;
+  width: 100%;
+  }
 
-@font-face { 
-    font-family:'Inter';  
-    src:url(/fonts/Inter-Regular.ttf);
-}
+  /* header*/
+  
+  header{
+    position: relative;
+    width: 82%;
+    height: 57px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: inter;
+    font-size: 20px;
+    margin-left: 9%;
+    top: 39px;
+  }
+  
+  .nav-title{
+    width: 20%;
+    height: 30px;
+    margin: auto;
+    font-size: 27px;
 
-body {
-    background-color:#8E8E8E;
-    font-family:'Inter',sans-serif;
-    font-size:2.5vh;
-}
-
-main {
-    width:90vw;
-    height:88vh;
-    margin-top:2vh;
-    margin-left:5vw;
-}
-
-#topo {
-    position:relative;
-    width:50vw;
-    height:5vh;
-    background-color:#9D6BFF;
-    border-radius:50px;
-    margin:auto;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    margin-top:2vh;
-}
-
-.fundo_nav {
-    position:relative;
-    width:48vw;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    margin:1.3vh auto;
-}
-
-.fundo_nav nav {
-    position:relative;
-    width:35vw;
-    display:flex;
-    justify-content:space-between;
-    text-decoration:none;
-}
-
-.logo a, .fundo_nav nav a {
-    text-decoration:none;
-    color:#FFF;
-}
-
-.fundo_nav nav a:hover {
-    opacity:60%;
-}
+  }
+  
+  .nav-title a{
+    text-decoration: none;
+    color: #315a94;
+  }
+  
+  .title-purple{
+    color: #9D6BFF;
+  }
+  
+  .nav-elements{
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-elements a{
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  
+  /*final da header*/
 
 #fundo_branco {
     position:relative;
     width:80vw;
     height:85vh;
     background-color:#F5F5F5;
-    margin:4.7vh auto;
+    margin:9.7vh auto;
     border-radius:25px;
     display:flex;
     flex-direction:row;
@@ -552,7 +564,7 @@ main {
     }
 
     .pessoa img {
-        width:13vw;
+        width:8vw;
     }
 
     .acessibilidade-hid {
