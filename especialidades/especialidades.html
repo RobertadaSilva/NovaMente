@@ -25,67 +25,92 @@
 </head>
 <body>
     <main>
-        <header class="centralizador_nav">
-            <section class="nav_espec"><!--aba de menus da nav-->
-                <nav class="titulo_nav">
-                    <a href="../index.html"> <span class="title_deco">Nova<span class="rosa_nav">Mente</span></span></a><!--titulo-->
-                </nav>
-                <nav class="elementos_nav">
-                    <a href="#">Perfil</a><!--opçoes do menu-->
-                    <a href="#">Prontuário</a>
-                    <a href="#">Consultas</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Receitas</a>
-                </nav>
-            </section>
+        
+      <div id="purple-background">
+        <header> 
+            <nav class="nav-title">
+                 <a href="../index.html"> <span>Nova<span class="title-purple">Mente</span></span></a>
+            </nav>
+            <nav class="nav-elements">
+                 <a href="../enter/enter.html">Home</a>
+                 <a href="../especialidades/especialidades.html" style="color: #9D6BFF">Especialidades</a>
+                 <a href="../feed-especialista/Feed_Especialista.html">Profissionais</a>
+                 <a href="../blog_paciente/blog-noticias/blog-noticias.html">Blog</a>
+                 <a href="#">Consultas</a>
+                 <a href="../receitas/receitas.html">Receitas</a>
+            </nav>
+         </header>
 
             <section class="fundo_perfil_especialista"><!--perfil especialista-->
                 <article class="divisor_perfil_nav">
-                    <div class="foto_perfil"> <img src="img/Ellipse 56.png" > </div>
+                    <div class="foto_perfil"> <img src="img/icon-proana.png" > </div>
                     <div class="nome_perfil"> 
-                        <article class="nome_especialista"><p>Paola Bert</p></article> 
-                        <article class="cargo"><p>Terapeuta</p></article>
-                        <article class="conf"><img src="img/Component 6.png"><p>Editar Perfil</p></article>
+                        <article class="nome_especialista"><p>Proana</p></article> 
+                        <article class="cargo"><p>18 anos</p></article>
+                       <article class="conf">   <img class="ima" src="imagens/engrenagem.png"><a href="../perfil_user/perfil_user.html">Editar Perfil</a href="../perfil_user/perfil_user.html"></article>
                     </div>
                 </article>
             </section>
-            <section class="elementos_lateral"><!--acessibilidade e darkmode-->
-                <section class="esquerdo_lateral"> 
-                    <article class="blocoBranco"> 
-                        <div class="dentro1"> 
-                            <img src="img/img.png"/>
-                        </div><p>Libras</p>
-                    </article>
-                   <article class="blocoBranco"> 
-                        <div class="dentro2">
-                            <img src="img/acessibilidade (3).png"/> 
-                        </div><p>AudioDescrição</p>
-                    </article>
-                    <article class="blocoBranco"> 
-                        <div class="dentro3"> 
-                            <img src="img/acessibilidade (5).png"/> 
-                        </div><p>Modo escuro</p>
-                    </article>
-                </section>
-                <section class="direito_lateral">  
-                    <article class="blocoBranco"> 
-                        <div class="dentro4"> 
-                            <img src="img/acessibilidade (2).png"/> 
-                        </div><p>Urgente</p>
-                    </article>
-                    <article class="blocoBranco"> 
-                        <div class="dentro5"> 
-                            <img src="img/acessibilidade (6).png"/> 
-                        </div><p>Baixa visão</p>
-                    </article>
-                    <article class="blocoBranco"> 
-                        <div class="dentro6"> 
-                            <img src="img/image-removebg-preview (84).png"/> 
-                        </div><p>Daltonismo</p>
-                    </article>
-                </section>
-            </section>
+         
+        <section id="acessibilidade">
+          <div class="box-partition">
+              <div class="acessibilidade-box">
+                  <div class="img-acessibilidade">
+                      <img src="imagens/icon-libras.png">
+                  </div>
+                  <div class="p-acessibilidade">
+                    <p>Libras</p>
+                  </div>
+              </div>
+              <div class="acessibilidade-box">
+                  <div class="img-acessibilidade">
+                    <img src="imagens/icon-urgente.png">
+                  </div>
+                  <div class="p-acessibidade">
+                    <p>Urgente</p>
+                  </div>
+              </div>
+          </div>
+          <div class="box-partition">
+              <div class="acessibilidade-box">
+                  <div class="img-acessibilidade">
+                      <img src="imagens/icon-audio.png">
+                  </div>
+                  <div class="p-acessibilidade">
+                      <p>Audiodescrição</p>
+                  </div>
+              </div>
+              <div class="acessibilidade-box"> 
+                  <div class="img-acessibilidade">
+                      <img src="imagens/icon-visao.png">
+                  </div>
+                  <div class="p-acessibilidade">
+                    <p>Baixa visão</p>
+                  </div>
+              </div>
+          </div>
+          <div class="box-partition">
+              <div class="acessibilidade-box">  
+                  <div class="img-acessibilidade"> 
+                      <img src="imagens/icon-escuro.png">
+                  </div> 
+                  <div class="p-acessibilidade">
+                      <p>Modo escuro</p>
+                  </div>
+              </div>
+              <div class="acessibilidade-box">
+                  <div class="img-acessibilidade">
+                    <img src="imagens/icon-daltonismo.png">
+                  </div>
+                  <div class="p-acessibilidade">
+                     <p>Daltonismo</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
         </header>
+      </div>
         <section id="nav_mobile"> </section><!--pendente mobile-->
        
         <section class="fundo_geral">
@@ -109,7 +134,10 @@
         
                 <br>
 
-              <button class="btn1">Encontrar Especialistas</button>
+                <a href="../feed-especialista/Feed_Especialista.html">
+
+                        <button class="btn1">Encontrar Especialistas</button>
+                </a>
       </div>
     </div>
   </div>
@@ -128,8 +156,10 @@
          
         <br>
 
-        <button class="btn1">Encontrar Especialistas</button>
+         <a href="../feed-especialista/Feed_Especialista.html">
 
+                        <button class="btn1">Encontrar Especialistas</button>
+                </a>
       </div>
     </div>
   </div>
@@ -149,7 +179,10 @@
           
         <br>
 
-        <button class="btn1">Encontrar Especialistas</button>
+        <a href="../feed-especialista/Feed_Especialista.html">
+
+          <button class="btn1">Encontrar Especialistas</button>
+  </a>
 
       </div>
     </div>
@@ -171,7 +204,10 @@
           
         <br>
 
-        <button class="btn1">Encontrar Especialistas</button>
+        <a href="../feed-especialista/Feed_Especialista.html">
+
+          <button class="btn1">Encontrar Especialistas</button>
+  </a>
         
       </div>
     </div>
@@ -202,7 +238,10 @@
           Terapia focada em modificiar comportamentos e pensamentos disfuncionais presentes no indivíduo. Esse tipo de terapia acredita que os pensamentos influenciam os sentimentos e emoções, gerando um impacto nas ações da pessoa.
                   <br>
   
-                <button class="btn1">Encontrar Especialistas</button>
+                  <a href="../feed-especialista/Feed_Especialista.html">
+
+                    <button class="btn1">Encontrar Especialistas</button>
+            </a>
         </div>
       </div>
     </div>
@@ -222,7 +261,10 @@ Terapia focada em modificiar comportamentos que podem acabar causando prejuízos
            
           <br>
   
-          <button class="btn1">Encontrar Especialistas</button>
+          <a href="../feed-especialista/Feed_Especialista.html">
+
+            <button class="btn1">Encontrar Especialistas</button>
+    </a>
   
         </div>
       </div>
@@ -242,7 +284,10 @@ Terapia focada em modificiar comportamentos que podem acabar causando prejuízos
           Especialidade focada em buscar a influência que o sistema nervoso exerce no comportamento do invíduo. 
           <br>
   
-          <button class="btn1">Encontrar Especialistas</button>
+          <a href="../feed-especialista/Feed_Especialista.html">
+
+            <button class="btn1">Encontrar Especialistas</button>
+    </a>
   
         </div>
       </div>
@@ -264,7 +309,10 @@ Abordagem focada em entender como o ambiente em volta do paciente influência o 
             
           <br>
   
-          <button class="btn1">Encontrar Especialistas</button>
+          <a href="../feed-especialista/Feed_Especialista.html">
+
+            <button class="btn1">Encontrar Especialistas</button>
+    </a>
           
         </div>
       </div>
@@ -291,23 +339,6 @@ Abordagem focada em entender como o ambiente em volta do paciente influência o 
   <img class="menu_responsivo" src="img/menu_responsivo.png">
 </div>
 
-<section class="acess0">
-<div id="acessibilidade" >
-<img src="img/imgacessiblidade0.png" onclick="fecha_abre1()"/>
-</div>
-
-<div id="acessibilidade-hid">
-<div>
-  <img class="acess1"  src="img/imgacessibilidade1.png" onclick="darkmode()"/>
-  <img class ="acess1-fake" src="img/imgacessibilidadedark1.png" onclick="normalmode()"></div>
-<img class="acess2" src="img/imgacessibilidade2.png"/>
-<img class="acess3" src="img/imgacessibilidade3 copy.png"/>
-<img class="acess4" src="img/imgacessibilidade4.png"/>
-<img class="acess5" src="img/imgacessibilidade5.png"/>
-<img class="acess6" src="img/imgacessibilidade6.png"  onclick="fecha_abre2()"/>
-</div>
-</section>
-          
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
