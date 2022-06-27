@@ -54,6 +54,7 @@ body{
   
   .novamente a{
   text-decoration: none;
+  color: #9D6BFF;
 }
 
   .novamente a:hover{
@@ -62,7 +63,7 @@ body{
   }
 
   .novamente span{
-    color: #9D6BFF;
+    color:#315A94;
     text-decoration: none;
   }
 
@@ -179,7 +180,7 @@ body{
   }
   
   .forget_password{
-    font-family:Inter;
+    font-family:'Inter';
     text-align: left;
     margin-left: 13%;
     margin-top: 30px;
@@ -205,7 +206,7 @@ body{
     margin-left: 35%;
     cursor: pointer;
     color: black;
-    font-family: Inter;
+    font-family: 'Inter';
     text-decoration: none;
   }
   
@@ -250,7 +251,7 @@ body{
 
   .create-acc{
       font-size: 32px;
-      font-family: Inter;
+      font-family: 'Inter';
       color:#9D6BFF;
       text-align: left;
       margin-left: 10%;
@@ -260,7 +261,7 @@ body{
   .user2{
       width: 73.5%;
       height: 60px;
-      font-family: Inter;
+      font-family:'Inter';
       font-size: 18px;
       float: left;
       margin-left: 10%;
@@ -273,7 +274,7 @@ body{
   .password2{
       width: 73.5%;
       height: 60px;
-      font-family: Inter;
+      font-family: 'Inter';
       font-size: 18px;
       float: left;
       margin-left: 10%;
@@ -288,7 +289,7 @@ body{
     text-align: left;
     margin-left:10%;
     font-size: 32px;
-    font-family: Inter;
+    font-family: 'Inter';
     color:#9D6BFF;
     margin-top: 190px;
   }
@@ -302,7 +303,7 @@ body{
 
   .month{
       width:25% ;
-      font-family: Inter;
+      font-family: 'Inter';
       font-size: 18px;
       margin-left: 10%;
       margin-top: 15px;
@@ -313,7 +314,7 @@ body{
 
   .day{
       width: 12%;
-      font-family: Inter;
+      font-family: 'Inter';
       font-size: 18px;
       margin-left: 4%;
       margin-top: 15px;
@@ -324,7 +325,7 @@ body{
 
   .year{
     width: 12%;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 18px;
     margin-left: 4%;
     margin-top: 15px;
@@ -345,7 +346,7 @@ body{
     margin-top: 38px;
     margin-left: -90px;
     font-size: 17px;
-    font-family: Inter;
+    font-family: 'Inter';
   }
   
   .button2{
@@ -358,7 +359,7 @@ body{
   .button2 input{
     width: 75%;
     height: 40px;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 20px;
     background-color:#E9E9E9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.47);
@@ -377,7 +378,7 @@ body{
   #fechar{
     position: absolute;
     right: 2%;
-    font-family: Inder;
+    font-family: 'Inder';
     top: 15px;
     cursor: pointer;
   }
@@ -399,19 +400,19 @@ body{
 
   .p1{
     font-size: 25px;
-    font-family: Inter;
+    font-family: 'Inter';
     color: #9D6BFF;
   }
 
   .p2{
     color: #626262;
-    font-family: Inter;
+    font-family: 'Inter';
     margin-top: 40px;
   }
 
   #sendemail{
     position: relative;
-    font-family: Inter;
+    font-family: 'Inter';
     border-radius: 10px;
     width: 70%;
     font-size: 18px;
@@ -423,7 +424,7 @@ body{
   #button3{
     display: block;
     font-size: 20px;
-    font-family: Inter;
+    font-family: 'Inter';
     text-align: center;
     margin-top: 90px;
     margin-left: 33%;
@@ -444,7 +445,7 @@ body{
   #fechar2{
     position: absolute;
     right: 4%;
-    font-family: Inder;
+    font-family: 'Inder';
     top: 15px;
     cursor: pointer;
   }
@@ -464,14 +465,14 @@ body{
 
   .p3{
     font-size: 25px;
-    font-family: Inter;
+    font-family: 'Inter';
     color: #9D6BFF;
     margin-top: 100px;
   }
 
   .p4{
     font-size: 18px;
-    font-family: Inter;
+    font-family: 'Inter';
     text-align: left;
     margin-left: 23.2%;
     margin-top: 40px;
@@ -485,7 +486,7 @@ body{
   #choose_password{
     display: block;
     position: relative;
-    font-family: Inter;
+    font-family: 'Inter';
     border-radius: 10px;
     width: 100%;
     height: 50px;
@@ -498,7 +499,7 @@ body{
 
   #repeat_password{
     position: relative;
-    font-family: Inter;
+    font-family: 'Inter';
     border-radius: 10px;
     width: 100%;
     height: 50px;
@@ -512,7 +513,7 @@ body{
   #button4{
     display: block;
     font-size: 20px;
-    font-family: Inter;
+    font-family: 'Inter';
     text-align: center;
     margin-top: 90px;
     margin-left: 81%;
@@ -555,7 +556,7 @@ body{
     }
       .p2{
          color: #626262;
-         font-family: Inter;
+         font-family: 'Inter';
          margin-top: 50px;
          WIDTH: 75%;
          margin: auto;
