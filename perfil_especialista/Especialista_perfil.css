@@ -1,13 +1,93 @@
 *{
+    padding: 0;
     margin: 0;
     border: 0;
-    padding: 0;
-}
-/*Importação da fonte*/
-@font-face {
-    font-family: "Inter";
-    src: url("Fontes/Inter-Light.ttf");
-}
+  }
+  
+  @font-face{
+  font-family: inder;
+  src: url(fontes/Inder-Regular.ttf);
+  }
+  
+  @font-face{
+  font-family: inter;
+    src: url(fontes/Inter-Regular.ttf);
+  }
+  
+  main, html{
+  position: relative;
+  background: #E5E5E5;
+  height: auto;
+  width: 100%;
+  }
+
+body{
+    overflow-x: hidden;
+
+  }
+  
+  .container{
+    background-image: url(imagens/home-deco.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    width: 100%;
+    height: auto;
+    margin-bottom: 250px;
+  }
+  
+  /* header*/
+  
+  header{
+    position: relative;
+    width: 82%;
+    height: 57px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: inter;
+    font-size: 20px;
+    margin-left: 9%;
+    top: 39px;
+  }
+  
+  .nav-title{
+    width: 20%;
+    height: 30px;
+    margin: auto;
+    font-size: 27px;
+
+  }
+  
+  .nav-title a{
+    text-decoration: none;
+    color: #315a94;
+  }
+  
+  .title-purple{
+    color: #9D6BFF;
+  }
+  
+  .nav-elements{
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-elements a{
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  
+  /*final da header*/
+
+  
 /*Fundo roxo*/
 .fundo_roxo{
     background-color: #9D6BFF;
@@ -17,39 +97,8 @@
     flex-direction: row;
     border-bottom-right-radius: 2vw;
 
+}
 
-}
-/*NAV*/
-nav{
-    width: 80vw;
-    height: 10vh;
-    margin-top: 5vh;
-    margin-left: 2.5vw;
-    border-radius: 2vw;
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo{
-    width: 10vw;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-nav a{
-    text-decoration: none;
-}
-span{
-    color: #9D6BFF;
-}
-.logo h1{
-    font-family: "Inter";
-    font-size: 3vh;
-    color: #315A94;
-}
 .outras_opcoes{
     display: flex;
     flex-direction: row;
