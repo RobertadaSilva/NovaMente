@@ -18,20 +18,35 @@
     <title>Página do Usuário</title>
 </head>
 <body>
-    <header> 
+    <header>
         <nav class="nav-title">
-             <a href="../index.html"> <span>Nova<span class="title-purple">Mente</span></span></a>
+             <a href="../index.html"> <span class="title-blue">Nova<span class="title-purple">Mente</span></span></a>
         </nav>
         <nav class="nav-elements">
-             <a href="../enter/enter.html">Home</a>
-             <a href="../especialidades/especialidades.html">Especialidades</a>
-             <a href="../feed-especialista/Feed_Especialista.html">Profissionais</a>
-             <a href="../blog_paciente/blog-noticias/blog-noticias.html" style="color: #9D6BFF">Blog</a>
-             <a href="#">Consultas</a>
-             <a href="/receitas/receitas.html">Receitas</a>
-
+             <a class="nav_dark1" href="../enter/enter.html">Home</a>
+             <a class="nav_dark2" href="../especialidades/especialidades.html">Especialidades</a>
+             <a class="nav_dark3" href="../feed-especialista/Feed_Especialista.html">Profissionais</a>
+             <a class="nav_dark4" href="../blog_paciente/blog-noticias/blog-noticias.html" style="color: #9D6BFF">Blog</a>
+             <a class="nav_dark5" href="#">Consultas</a>
+             <a class="nav_dark6" href="../receitas/receitas.html">Receitas</a>
         </nav>
-     </header>
+    </header>
+
+    <nav class="nav_responsiva">
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+            <li><a href="../enter/enter.html">Home</a></li>
+            <li><a href="../especialidades/especialidades.html">Especialidades</a></li>
+            <li><a href="../feed-especialista/Feed_Especialista.html">Profissionais</a></li>
+            <li><a href="../blog_paciente/blog-noticias/blog-noticias.html">Blog</a></li>
+            <li><a href="#">Consultas</a></li>
+            <li><a href="../receitas/receitas.html">Receitas</a></li>
+        </ul>
+    </nav>
 
     <main>
         <section id="id_infos_responsivo">
@@ -60,7 +75,7 @@
                         <br>
                         <li><a id="uljs3" href="#" onclick="redefinir_senhajs()">Redefinir senha</a></li>
                         <br>
-                        <li><a id="uljs4" href="#" onclick="esqueci_senhajs()">Esqueci a senha</a></span></li>
+                        <li><a id="uljs4" href="#" onclick="esqueci_senhajs()">Esqueci a senha</a></li>
                         <br>
                         <li><a id="uljs5" href="#" onclick="termo_compromissojs()">Termo de Compromisso</a></li>
                         <br>
@@ -82,7 +97,7 @@
                         <br>
                         <li><a id="uljs3_responsivo" onclick="redefinir_senhajs_responsivo()">Redefinir senha</a></li>
                         <br>
-                        <li><a id="uljs4_responsivo" onclick="esqueci_senhajs_responsivo()">Esqueci a senha</a></span></li>
+                        <li><a id="uljs4_responsivo" onclick="esqueci_senhajs_responsivo()">Esqueci a senha</a></li>
                         <br>
                         <li><a id="uljs5_responsivo" onclick="termo_compromissojs_responsivo()">Termo de Compromisso</a></li>
                         <br>
@@ -422,18 +437,17 @@
             </div>
     </main>
 
-    <div class="acess5">
-        <div vw class="enabled">
-            <div vw-access-button class="active"></div>
-            <div vw-plugin-wrapper>
-                <div class="vw-plugin-top-wrapper">
-            </div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper">
         </div>
     </div>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
+    
     <script src="js/menu.js"></script>
 </body>
 </html>

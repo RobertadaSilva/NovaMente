@@ -21,8 +21,16 @@ function fecha_abre2(){
 function normalmode() {
     document.querySelector(".acessibilidade").style.visibility="visible";
     document.querySelector(".acess1-fake").style.visibility="hidden"
-    document.querySelector("body").style.backgroundColor = "#8E8E8E";
-    document.getElementById("topo").style.backgroundColor = "#9D6BFF";
+    document.querySelector("body").style.backgroundColor = "#E5E5E5";
+    document.querySelector("header").style.backgroundColor = "#FFF";
+    document.querySelector(".title-blue").style.color = "#315a94";
+    document.querySelector(".title-purple").style.color = "#9D6BFF";
+    document.querySelector(".nav_dark1").style.color = "#000";
+    document.querySelector(".nav_dark2").style.color = "#000";
+    document.querySelector(".nav_dark3").style.color = "#000";
+    document.querySelector(".nav_dark4").style.color = "#9D6BFF";
+    document.querySelector(".nav_dark5").style.color = "#000";
+    document.querySelector(".nav_dark6").style.color = "#000";
     document.getElementById("fundo_branco").style.backgroundColor = "#F5F5F5";
     document.querySelector("hr").style.backgroundColor = "#000";
     document.getElementById("cardjs").src = "imgs/card_user.png";
@@ -55,7 +63,15 @@ function darkmode() {
     document.querySelector(".acessibilidade").style.visibility="visible";
     document.querySelector(".acess1-fake").style.visibility="visible"
     document.querySelector("body").style.backgroundColor = "#363636";
-    document.getElementById("topo").style.backgroundColor = "#737373";
+    document.querySelector("header").style.backgroundColor = "#737373";
+    document.querySelector(".title-blue").style.color = "#FFF";
+    document.querySelector(".title-purple").style.color = "#FFF";
+    document.querySelector(".nav_dark1").style.color = "#FFF";
+    document.querySelector(".nav_dark2").style.color = "#FFF";
+    document.querySelector(".nav_dark3").style.color = "#FFF";
+    document.querySelector(".nav_dark4").style.color = "#FFF";
+    document.querySelector(".nav_dark5").style.color = "#FFF";
+    document.querySelector(".nav_dark6").style.color = "#FFF";
     document.getElementById("fundo_branco").style.backgroundColor = "#737373";
     document.querySelector("hr").style.backgroundColor = "#FFF";
     document.getElementById("cardjs").src = "imgs/card_user_dark.png";
