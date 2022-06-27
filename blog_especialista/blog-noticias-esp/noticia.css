@@ -43,7 +43,7 @@
     justify-content: space-between;
     font-family: inter;
     font-size: 20px;
-    left: 54px;
+    margin-left: 9%;
     top: 39px;
   }
   
@@ -51,6 +51,8 @@
     width: 20%;
     height: 30px;
     margin: auto;
+    font-size: 27px;
+
   }
   
   .nav-title a{
