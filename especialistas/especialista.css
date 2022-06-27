@@ -6,33 +6,43 @@
 }
 
 
+@font-face{
+                              font-family: inder;
+                              src: url(fontes/Inder-Regular.ttf);
+                            }
+                            
+@font-face{
+                              font-family: inter;
+                              src: url(fontes/Inter-Regular.ttf);
+                            }
+                          
 body{                       overflow-x: hidden;} 
 
 img{                        width: 100%; }
-
-
+                            
+                            
 header{
                             margin-top: -43.5%;}
-
+                            
 header a {
                             color: #9D6BFF;
                             text-decoration: none;
                             transition: 0.3s;}
-  
+                              
 header a:hover {            opacity: 0.7;}
-  
+                              
 .logo {
-                            font-family: 'inder';
+                            font-family: inder;
                             font-style: normal;
                             font-weight: 400;
                             font-size: 31px;
                             line-height: 46px;
                             padding-left: 35px;}
-
+                            
 .logo:hover{
                             transform: scale(1.1);
-                            transition: all 1s;}
-  
+                            transition: all 1s; }
+                              
 nav {
                             display: flex;
                             justify-content: space-between;
@@ -44,40 +54,41 @@ nav {
                             font-style: normal;
                             font-size: 20px;
                             line-height: 25px;}
-  
+                              
 .login{
                             font-size: 20px;
                             padding: 1.0vh 4vw 1.0vh 4vw;
                             background-color: #9D6BFF;
                             color: white;
                             border-radius: 5px;
-                            font-family: Inder;
+                            font-family: 'Inder';
                             cursor: pointer;
                             margin-right: 35px;}
-
+                            
 .login:hover{
                             transform: scale(1.1);
-                            transition: all 1s;}
-  
+                            transition: all 1s;
+}
+                              
 .nav-list {
                             list-style: none;
                             display: flex;}
-  
-.nav-list li {              margin-left: 32px;
-}
-  
+                              
+.nav-list li {              margin-left: 32px;}
+                              
 .mobile-menu {
                             display: none;
                             cursor: pointer;}
-  
+                              
 .mobile-menu div {
                             width: 32px;
                             height: 2px;
                             background: #D9D9D9;
                             margin: 8px;
                             transition: 0.3s;}
-
+                            
 .nav-list active{           position: absolute;}
+                              
 
 
                         /*-------------------------INICIO DO ASIDE---------------------------*/
