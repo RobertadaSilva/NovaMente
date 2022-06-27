@@ -1,98 +1,89 @@
 *{
-    border:0;
-    margin:0;
-    padding:0;
-}
-
-body{
-    background-color: #fff;
-
-}
-
-.navpai{
-    width: 90vw;
-    height: 13vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.cabecalho{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  @font-face{
+      font-family: inder;
+      src: url(fontes/Inder-Regular.ttf);
+  }
+  
+  @font-face{
+      font-family: inter;
+      src: url(fontes/Inter-Regular.ttf);
+  }
+  
+  main{
     position: relative;
-    width: 80vw;
-    height: 13vh;
-    display: flex;
-    align-items:center;
-}
-
-.navbar{
-    font-family: 'Inder',sans-serif;
-    width: 70vw;
-    height: 7.5vh;
-    background-color: #fff;
-    display: flex;
-    margin: 0 auto;
-    border-radius: 100vw;
-    border:1px solid #5F5F5F;
-    margin-left: 10vw;
-}
-
-.logo {
-    width: 15vw;
-    height: 7.5vh;
-    margin-left: 2vw;
-    display: flex;
-    align-items: center;
-}
-
-.nova{                  
-    color: #315a94;
-text-decoration: none;}
-
-.nova:hover{
-    transform: scale(1.1);
-    cursor: pointer;
+    background-color: #E5E5E5;
   }
-
-.logo p{
-    font-size: 1.2vw;
-    
-}
-
-nav a:hover{
-    color: #24065f;
+  
+  #purple-background{
+    position: relative;
+    width: 100%;
+    height: 429px;
+    background: #9D6BFF;
+    border-radius: 0px 0px 35px 0px;
   }
-
-.mente{
-    color: #5E17EB;
-  }
-
-.navlinks{
-    width: 48vw;
-    height: 7.5vh;
+  
+  /* header inicio*/
+  
+  header{
+    position: relative;
+    width: 82%;
+    height: 57px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-left: 9%;
+    top: 39px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.navlinks a{
-    font-size: 1.21vw;
-    color: #5F5F5F;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: inter;
+    font-size: 20px;
+    border: #00000015 solid 1px;
+  }
+  
+  .nav-title{
+    width: 20%;
+    height: 30px;
+    margin: auto;
+  }
+  
+  .nav-title a{
     text-decoration: none;
-}
-
-.homeroxa {
-    color: #5E17EB;
-}
-
-.receita{
-    width: 80vw ;
-    height: 85vh;
-    margin:3vh auto;
+    color: #000000;
+  }
+  
+  .title-purple{
+    color: #9D6BFF;
+  }
+  
+  .nav-elements{
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-elements a{
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  /*header final*/
+  .receita {
+    width: 80vw;
+    height: 61vh;
+    margin: 10vh auto;
     display: flex;
 }
-
-.barralateral{
-    height: 85vh;
+.barralateral {
+    height: 62vh;
     width: 6vw;
     display: flex;
     flex-direction: column;
@@ -115,16 +106,14 @@ nav a:hover{
 .seringa{
     margin-top: 5.5vh;
 }
-.alinhamento{
+.alinhamento {
     width: 74vw;
-    height: 85vh;
+    height: 62vh;
     display: flex;
     flex-direction: column;
     background-color: #F5F5F5;
     border-radius: 0 1vw 1vw 0;
-    
 }
-
 .notificacaopai{
     width: 75vw;
     height: 30vh;
