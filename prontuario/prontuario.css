@@ -1,266 +1,101 @@
-
 *{
-  border:0;
   padding: 0;
-  margin:0;
+  margin: 0;
+  border: 0;
 }
-.fundo{
-  background-color: #fff;
-}
-body{
-  
-  background-color: #f1f1f1;
-}
-.centralizador_nav{
- /* background-color: blue;*/
-  width: 100%;
-  height: 5em;
-  align-items: center;
-  display: flex;
-  
-}
-.nav_espec{
-  position: fixed;
-  z-index: 3;
-  left: 10%;
-  width: 70%;
-  height: 2.7em;
-  background-color: #fff;
-  margin:auto;
-  border-radius: 10em;
-  border: 1px rgb(151, 151, 151) solid;
-  display: flex;
-justify-content: space-between;
-}
-.espacamento_nav{
-  width: 70%;
-  height:3em;
-  /*background-color: aqua;*/
-}
-.titulo_nav{
-  /*background-color: blue;*/
-  width: 20%;
-  height: 100%;
-  border-radius:10em 0 0 10em ;
-  text-align: center;
-}
-.botao{
-  background-color: #ffffff;
 
+@font-face{
+font-family: inder;
+src: url(fontes/Inder-Regular.ttf);
 }
-.title_deco{
-  font-family: 'Poppins', sans-serif;
-  line-height: 40px;
-  color:#315a94;
-  align-items: center;
-  font-size: 1.2em;
-  
-}
-.titulo_nav a{
-  text-decoration: none;
-}
-.rosa_nav{
-  color:#9D6BFF;
-}
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-.elementos_nav{
-width: 60%;
-height: 100%;
-/*background-color: rgb(217, 7, 7);*/
-border-radius: 0 10em 10em 0;
+@font-face{
+font-family: inter;
+  src: url(fontes/Inter-Regular.ttf);
 }
-.elementos_nav a{
-  font-family: 'Inter', sans-serif;
-  color:#000;
-  text-decoration: none;
-  line-height: 40px;
-  font-size: 1.2em;
-  margin:3.5%;
-  background-image: 
-  linear-gradient(
-    transparent 0%,
-    transparent 90%,
-    #9D6BFF 90%,
-    #9D6BFF 100%
-  );
+
+main, html{
+position: relative;
+background: #E5E5E5;
+height: auto;
+width: 100%;
+}
+
+.container{
+  background-image: url(imagens/home-deco.png);
   background-repeat: no-repeat;
-  background-size: 0% 100%;
   background-position-x: right;
+  width: 100%;
+  height: auto;
+  margin-bottom: 250px;
+}
 
-  transition: background-size 300ms;}
+/* header*/
 
-   a:hover{
-    background-size: 100% 100%;
-    background-position-x: left;
-    color: #564676;
- 
-  }
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+header{
+  position: relative;
+  width: 82%;
+  height: 57px;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: inter;
+  font-size: 20px;
+  margin-left: 9%;
+  top: 39px;
+}
 
-.fundo_perfil_especialista{
-  position: fixed;
-  left: 73%;
+.nav-title{
+  width: 20%;
+  height: 30px;
+  margin: auto;
+  font-size: 27px;
+}
+
+.nav-title a{
+  text-decoration: none;
+  color: #315a94;
+}
+
+.title-purple{
+  color: #9D6BFF;
+}
+
+.nav-elements{
+  width: 60%;
+  height: 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-elements a{
+  text-decoration: none;
+  color: #000000;
+}
+
+
+/*final da header*/
+
+.fundo_perfil_especialista {
+  position: 0;
+  margin-left: 67%;
+  margin-top: -15%;
   z-index: 2;
-  width: 28%;
+  width: 40%;
   height: 550px;
   border-radius: 0px 0px 0px 155px;
--moz-border-radius: 0px 0px 0px 155px;
--webkit-border-radius: 0px 0px 0px 155px;
-border: 0px solid #000000;
-background-color: #9D6BFF;
-}
-.elementos_lateral{
-  position: fixed;
-  top:310px;
-display: flex;
-flex-direction: row;
-  left: 82%;
-  z-index: 1;
-  width: 15%;
-  height: 650px;
-  /*background-color: #e00000;*/
-  
-}
-.esquerdo_lateral{
-  position: relative;
-  width: 50%;
-  height: 50%;
-  /*background-color: #e0d800;*/
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-
-.blocoBranco{
-  color: #9D6BFF;
-  font-size: 11px;
-  font-family: 'Inter', sans-serif;
-  text-align: center;
-  background-color: #fff;
-  cursor:pointer;
-  border-radius: 10px;
-  border: 1px solid rgb(236, 236, 236);
-  -webkit-box-shadow: 0px 4px 0px 0px rgb(218, 218, 218);
-  -moz-box-shadow: 0px 4px 0px 0px rgb(218, 218, 218);
-  box-shadow: 0px 4px 0px 0px rgb(218, 218, 218);
-  width: 90%;
-  height: 80px;
-  display: flex;
-  flex-direction: column;
-  /*background-color: #828dde;*/
-}
-.blocoBranco:hover{
+  -moz-border-radius: 0px 0px 0px 155px;
+  -webkit-border-radius: 0px 0px 0px 155px;
+  border: 0px solid #000000;
   background-color: #9D6BFF;
-  color: #fff;
-  transition: 3s;
 }
 
 
-.direito_lateral{
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  position: relative;
-  width: 50%;
-  height: 50%;
- /* background-color: #1c2670;*/
-}
-
-.dentro1{
-  padding-top:10px;
-  width: 100%;
-  height: 50px;
-}
-.branc1{
-  margin-top: 20px;
-}
-.dentro1 img{
-  width: 48%;
-  height: 36px;
-}
-
-.dentro2{
-  padding-top:10px;
-  width: 100%;
-  height: 50px;
-}
-.dentro2 img{
-  width: 25%;
-  height: 35px;
-}
-
-.dentro3{
-  margin: auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top:10px;
-  width: 80%;
-  height: 100%;
- 
-}
-
-.blocoBranco .active{
-  background-color: #2e0e32;
-}
-.botao_dark{
-  margin: auto;
-  background-color: #bcbcbc;
-  width: 70%;
-  height: 25px;
-  border-radius: 60px;
-  border: solid 1px #000;
-  cursor:pointer;
-}
-.botao_dark:before {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: #f90000;
-  border-radius: 50%;
-  top:78%;
-  left:25px;
-  transform: translateY(-50%);
-  transition: all 2s;
-}
-.botao_dark.active:before {
-left: 47px;
-
-}
-
-.dentro4{
-  padding-top:10px;
-  width: 100%;
-  height: 50px;
-}
-.dentro4 img{
-  width: 48%;
-  height: 50px;
-}
-
-.dentro5{
-  padding-top:10px;
-  width: 90%;
-  height: 50px;
-}
-.dentro5 img{
-  width: 45%;
-  height: 30px;
-}
-
-.dentro6{
-  padding-top:10px;
-  width: 100%;
-  height: 50px;
-}
-.dentro6 img{
-  width: 48%;
-  height: 40px;
-}
 .divisor_perfil_nav{
  margin-top: 320px;
   float: right;
@@ -309,41 +144,83 @@ left: 47px;
   font-size: 13px;
  margin-top: 2.6em;
 }
-
-.conf a{
-  color:#fff;
-  text-decoration: none;
+.conf p{
   line-height: 34px;
   cursor: pointer;
 }
-.fundo_geral{
+.fundo_geral {
   flex-direction: column;
   position: relative;
   display: flex;
-  margin:5% 0 0 12%;
-  width: 53%;
+  margin: -18% 0px -101px 4%;
+  width: 59%;
   height: 1000px;
-  border-radius: 50px 50px 0 0 ;
+  border-radius: 50px 50px 0 0;
+}
+/*área de acessibilidade*/
+
+#acessibilidade{
+  margin-top: 120px;
+  position:absolute;
+  left:78%;
+
+  width: 20%;
+  height: auto;
+
 }
 
-.fundo_title{
+.acessibilidade-box{
+  background: #F6F6F6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 106px;
+  height: 89px;
+  margin-bottom: 20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.box-partition{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
+
+.acessibilidade-box p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #9D6BFF;
+
+}
+
+/*fim da área de acessibilidade*/
+.fundo_title {
   position: relative;
   line-height: 55px;
-
   font-family: 'Inter', sans-serif;
   color: #fff;
   font-size: 25px;
   border-radius: 10px;
-  width:100%;
+  margin-left: -0.5%;
+  width: 100%;
   height: 60px;
   background-color: #9D6BFF;
-  margin-bottom: 5%;
+
+  margin-bottom: 90px;
 }
 
 .fundo_title p{
   margin-left: 10px;
 }
+
 .fundo_prontuario{
+  background-color: #fff;
   position: relative;
   flex-direction: column;
   display: flex;
@@ -362,7 +239,7 @@ height: 80px;
 /*background-color: aqua;*/
 }
 .historico_title{
-  width: 100%;
+  width: 80%;
 height: 100px;
 /*background-color: rgb(255, 60, 0);*/
 }
@@ -509,7 +386,8 @@ margin:auto;
 
 .botao {
 cursor: pointer;
-  color: white;
+
+  background-color: rgb(255, 255, 255);
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -554,7 +432,40 @@ cursor: pointer;
 }
 
 
-@media screen and (max-width:733px){
+@media screen and (max-width:732px){
+  .fundo{
+      
+    height:700px;
+  }
+  .perfil_2espec{
+    margin: auto;
+    visibility: visible;
+    height: 80px;
+    width: 90%;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .centraliza_perfil2_espec{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 80%;
+    width: 100%;
+   
+  }
+  .nome_especialista2{
+    font-family: 'Inter', sans-serif;
+    line-height: 70px;
+    font-size: 19px;
+  }
+  .fotoPerfil2{
+    
+    margin:8px 10px 0 0;
+    width: 50px;
+  height: 50px;
+  }
 .centralizador_nav{
 
   display: none;
@@ -583,19 +494,19 @@ textarea{
   flex-direction: row;
   border-radius: 10px;
   margin: 0;
-  
+ 
 
 }
 
 .pacientes_user {
-  cursor: pointer;
-  position: absolute;
-  height: 50px;
+ cursor: pointer;
+ position: absolute;
+ height: 50px;
  width: 100%;
  background-color: antiquewhite;
-  min-width:200px;
-  border: 1px solid #000;
-margin-left: 70px;
+ min-width:200px;
+ border: 1px solid #000;
+ margin-left: 70px;
   z-index: 1;
 }
 .nome_pessoa2{
@@ -615,35 +526,66 @@ margin-left: 70px;
 @media only screen and (min-width: 733px) {
   @media only screen and (max-width: 1024px) {
  
-    .nav_espec{
-      width: 60%
+    .fundo_perfil_especialista{
+      border-radius: 0px 0px 0px 125px;
+     }
+      .dentro4{
+        padding-top:10px;
+        width: 100%;
+        height: 50px;
+      }
+      .dentro4 img{
+        width: 44%;
+        height: 37px;
+      }
+      .direito_lateral{
+        height: 60%;
+      }
+      .esquerdo_lateral{
+        height: 60%;
+      }
+      .blocoBranco{
+        height: 60px;
+      }
+      .parte_foto{
+        width: 40px;
+      }
+      .nav_espec{
+        width: 60%
+      }
+    .titulo_nav{
+      width: 50%;
     }
-  .titulo_nav{
-    width: 50%;
+    .elementos_nav {
+      width: 100%;
+      height: 100%;
+    }
+  
+  .elementos_nav a {
+      margin: 2.5px;
+      font-size: 90%;
   }
-  .elementos_nav {
-    width: 100%;
-    height: 100%;
+  .centraliza_pessoa{
+    width: 80%;
+  
   }
-
-.elementos_nav a {
-    margin: 2.5px;
-    font-size: 90%;
+  .elementos_lateral{
+    left: 78%;
+    top: 360px;
+    width: 20%;
+    height: 400px;
+  }
+  
+    .fundo{
+      
+      height:auto;
+ 
 }
-.centraliza_pessoa{
-  width: 80%;
-
-}
-.elementos_lateral{
-  left: 78%;
-  top: 360px;
-  width: 20%;
-  height: 400px;
-}
-}
+  }
 }
 @media only screen and (min-width: 1025px) {
   @media only screen and (max-width:1300px) {
+
     .titulo_nav{
       width: 20%;
     }
