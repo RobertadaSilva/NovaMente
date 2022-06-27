@@ -1,110 +1,107 @@
 *{
+    padding: 0;
+    margin: 0;
     border: 0;
-    margin:0;
-    padding:0;
-}
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+  }
+  
+  @font-face{
+      font-family: inder;
+      src: url(fontes/Inder-Regular.ttf);
+  }
+  
+  @font-face{
+      font-family: inter;
+      src: url(fontes/Inter-Regular.ttf);
+  }
 
-
-body{
-    background-color: #9D6BFF;
-    overflow-x: hidden;
-}
-
-.navpai{
-    width: 90vw;
-    height: 13vh;
-    display: flex;
-    align-items: center;
-}
-
-.cabecalho{
+  body{overflow-x: hidden;}
+  
+  main{
     position: relative;
-    width: 80vw;
-    height: 13vh;
-    display: flex;
-    align-items:center;
-}
-
-.navbar{
-    font-family: 'Inder',sans-serif;
-    width: 70vw;
-    height: 6vh;
-    background-color: #fff;
-    display: flex;
-    margin: 0 auto;
-    border-radius: 100vw;
-    margin-left: 17vw;
-}
-
-.logo {
-    width: 15vw;
-    height: 7.5vh;
-    margin-left: 2vw;
-    margin-top: -0.5;
-    display: flex;
-    align-items: center;
-}
-
-.nova{   
-    font-size: 19px;               
-    color: #315a94;
-    text-decoration: none;}
-
-.nova:hover{
-    transform: scale(1.1);
-    cursor: pointer;
+    background-color: #E5E5E5;
   }
-
-.logo p{
-    font-size: 1.2vw;
-    
-}
-
-nav a:hover{
-    color: #24065f;
-  }
-
-.mente{
-    color: #5E17EB;
-  }
-
-.navlinks{
-    width: 48vw;
-    text-align: center;
-    margin-top: -0.5%;
-    height: 7.5vh;
+  
+  #purple-background{
+    position:relative;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+   flex-direction: column;
+    width: 100%;
+    height: 495px;
+    background: #9D6BFF;
+  
+  }
+  
+  /* header inicio*/
+  
+  header{
+    position: relative;
+    width: 82%;
+    height: 57px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-left: 9%;
+    top: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: inter;
+    font-size: 20px;
+  }
+  
+  .nav-title{
+    width: 20%;
+    height: 30px;
+    margin: auto;
+    font-size: 27px;
 
-.navlinks a{
-    font-size: 1.21vw;
-    color: #5F5F5F;
+  }
+  
+  .nav-title a{
     text-decoration: none;
-}
+    color: #315A94;
+  }
+  
+  .title-purple{
+    color: #9D6BFF;
+  }
+  
+  .nav-elements{
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-elements a{
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  /*header final*/
 
-.homeroxa {
-    color: #5E17EB;
-}
 
 .profilepic{
-    width: 3.5vw;
-    height: 7.5vh;
-    border-radius: 100vw;
-    margin-left: 2vw;
+    font-family: inder;
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
     background-image:url(images/fotoperfil.png);
     background-size: cover;
-    cursor: pointer;
-    
-    
+    cursor: pointer;   
+
 }
 
+
 .mensagem{
-    height: 60vh;
-    width: 100vw;
+    
+    margin: auto;
+    position: relative;
+    
+    height: 30vh;
+    width: 60vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -135,15 +132,16 @@ nav a:hover{
 }
 
 .imagens{
+    position: absolute;
     width: 80vw;
     height: 40vh;
     background-color: #F1F1F1;
-    position: absolute;
+  font-family: inder;
     left:10vw;
-    top:65vh;
     border-radius: 4vw;
     display: flex;
     align-items: center;
+    top: 380px;
 }
 
 .imgarea1{
@@ -201,10 +199,11 @@ nav a:hover{
 
 
 .rodape{
-    background-color: #fff;
+
+    background-color: rgb(255, 0, 0);
     width: 100vw;
     height: 33vh;
-    margin-top: 5vh;
+    
 }
 
 #acessibilidade{
@@ -281,3 +280,4 @@ nav a:hover{
     width: 80%;
     padding-top: 20px;
     padding-left: 2px;
+}
