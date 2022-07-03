@@ -32,6 +32,7 @@ class MobileNavbar {
             }s`);
       });
     }
+    
 
     handleClick() {
       this.navList.classList.toggle(this.activeClass);
