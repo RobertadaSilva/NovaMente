@@ -1,5 +1,61 @@
-function onClickMenu(){
-document.getElementById("menu").classList.toggle("change");
-document.getElementById("nav").classList.toggle("change");
-document.getElementById("menu-bg").classList.toggle("change");
+
+
+function fecha_abre1(){
+    
+    document.getElementById("acessibilidade-hid").style.visibility="visible";
+    document.getElementById("acessibilidade").style.visibility="hidden";
 }
+
+function fecha_abre2(){
+    
+    document.getElementById("acessibilidade-hid").style.visibility="hidden";
+    document.getElementById("acessibilidade").style.visibility="visible";
+    document.querySelector(".acess1-fake").style.visibility="hidden";
+}
+
+class MobileNavbar {
+    constructor(mobileMenu, navList, navLinks) {
+      this.mobileMenu = document.querySelector(mobileMenu);
+      this.navList = document.querySelector(navList);
+      this.navLinks = document.querySelectorAll(navLinks);
+      this.activeClass = "active";
+
+      this.handleClick = this.handleClick.bind(this);
+    }
+
+    animateLinks() {
+      this.navLinks.forEach((link, index) => {
+        link.style.animation
+          ? (link.style.animation = "")
+          : (link.style.animation = `navLinkFade 0.5s ease forwards ${
+              index / 7 + 0.3
+            }s`);
+      });
+    }
+
+    handleClick() {
+      this.navList.classList.toggle(this.activeClass);
+      this.mobileMenu.classList.toggle(this.activeClass);
+      this.animateLinks();
+    }
+
+    addClickEvent() {
+      this.mobileMenu.addEventListener("click", this.handleClick);
+    }
+
+    init() {
+      if (this.mobileMenu) {
+        this.addClickEvent();
+      }
+      return this;
+    }
+  }
+
+  const mobileNavbar = new MobileNavbar(
+    ".mobile-menu",
+    ".nav-list",
+    ".nav-list li",
+  );
+  mobileNavbar.init(); 
+
+
