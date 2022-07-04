@@ -1,0 +1,584 @@
+*{
+    font-family: inder;
+    border:0;
+    margin:0;
+    padding:0;
+}
+@font-face{
+    font-family: inder;
+    src: url(fontes/Inder-Regular.ttf);
+    }
+.fundo_foto{
+    position: absolute;
+    top:7%;
+    left:65%;
+    width: 25%;
+    height: 300px;
+    border-radius:50px ;
+    background-color: #F1F1F1;
+}
+    
+.fundo_roxo_pag{
+    width: 100%;
+    height: 280px;
+    background-color: #9D6BFF;
+
+    border-radius: 0px 0px 40px 0px;
+}
+.fundo_pag{
+    position: absolute;
+    top:7%;
+    left:5%;
+    width: 50%;
+    height: 550px;
+    background-color: #F1F1F1;
+    border-radius: 50px;
+}
+.foto_espec{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    color:#9D6BFF;
+    font-size: 20px;
+    width: 100%;
+    height: 40%;
+
+}
+.foto_espec img{
+    margin-top: 50px;
+    width: 30%;
+
+}
+
+.valor{
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color:#4e4e4e;
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    width: 100%;
+    height: 20%;
+ 
+}
+.botaoValor{
+border-radius: 10px;
+    width: 30%;
+    height: 58%;
+    background-color: #9D6BFF;
+    color:#f1f1f1;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.topico_pag{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+   /* background-color: aqua;*/
+    padding: 0% 0% 0% 1%;
+}
+.topico_pag p{
+    position:relative;
+    font-family: inder;
+    color:#9D6BFF;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.linha_title{
+    position: relative;
+    width: 50%;
+    height: 12px;
+    background-color: #9D6BFF;
+    border-radius: 10px;
+}
+.dados_pag1{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 40%;
+    height: 100px;
+ 
+}
+.hora_pag1{
+    position: relative;
+    color:#888888;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 82%;
+    height: 50px;
+    background-color: #F1F1F1;
+    border: solid 1px rgb(198, 198, 198);
+    border-radius: 5px;
+}
+.horario_pag1{
+    color:#888888;
+    font-size: 18px;
+    width: 45%;
+    background-color: #f1f1f1;
+}
+.title_horario1{
+    margin-top: 13px;
+    font-size: 18px;
+}
+.dados_fundo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+
+}
+
+.dados_pag1{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 40%;
+    height: 100px;
+}
+
+.dados_pag{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 55%;
+    height: 100px;
+}
+.hora_pag{
+    position: relative;
+    color:#888888;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+    height: 50px;
+    background-color: #F1F1F1;
+    border: solid 1px rgb(198, 198, 198) ;
+    border-radius: 5px;
+}
+.horario_pag{
+    color:#888888;
+    font-size: 18px;
+    width: 45%;
+    background-color: #f1f1f1;
+}
+.title_horario{
+    margin-top: 13px;
+    font-size: 18px;
+}
+.dados_fundo1{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 100%;
+   height: auto;
+}
+.fundoCartao{
+    width: 95%;
+    height: 200px;
+    padding-left: 30px;
+}
+.fundoBotao{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 84%;
+    height: 150px;
+
+    padding: 0px 50px 0px 50px;
+}
+.botaoCancel{
+    border-radius: 10px;
+    width: 30%;
+    height: 27%;
+    background-color: #D7D7D7;
+    cursor:pointer;
+    padding-top: 20px;
+text-align: center;
+color: #4e4e4e;
+}
+.botaoConfir{
+    padding-top: 20px;
+    border-radius: 10px;
+    width:60%;
+    height: 27%;
+    background-color: #9D6BFF;
+    cursor:pointer;
+    text-align: center;
+    color: beige;
+}
+.container_pag{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+
+#menu_responsivo{
+    display: none;
+  }
+  
+  .nav_responsiva {
+    display:none;
+    justify-content:space-around;
+    align-items:center;
+    font-family:Inter;
+    background-color:#FFF;
+    height:8vh;
+    border-bottom:1px solid #AFAFAF;
+  }
+  
+  .nav-list {
+    list-style:none;
+    display:none;
+  }
+  
+  .nav-list.active {
+    background-color:#FFF;
+  }
+  
+  .nav-list li {
+    letter-spacing:3px;
+    margin-left:32px;
+  }
+  
+  .nav-list ul {
+    width:80vw;
+    height:92vh;
+  }
+  
+  .nav-list li a {
+    text-decoration:none;
+    color:#000;
+  }
+  
+  .mobile-menu {
+    display:none;
+    cursor:pointer;
+    margin-left:70vw;
+  }
+  
+  .mobile-menu div {
+    width:32px;
+    height:2px;
+    background:#ADADAD;
+    margin:8px;
+    transition:0.3s;
+  }
+  
+@media screen and (max-width:320px){
+    .fundoCartao img{
+        width: 80%;
+    }
+    .fundo_foto{
+        position: relative;
+        width: 90%;
+        height: 270px;
+        left: 0px;
+        margin: auto;
+        border-radius: 20px;
+
+    }
+    .fundo_pag{
+       border-radius: 20px;
+        position: relative;
+        width: 90%;
+        margin: auto;
+        left: 0px;
+    }
+    .fundo_roxo_pag{
+        display: none;
+    }
+    .container_pag{
+        width: 100%;
+        padding-top: 50px;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .fundoBotao{
+        width: 66%;
+        height: 60px
+    }
+    .espacamento_mob{
+        visibility: visible;
+        height: 50px;
+        width: 100%;
+    }
+    .topico_pag p {
+        text-align: center;
+    }
+    .linha_title {
+        width: 81%;
+        margin: auto;
+    }
+    .dados_fundo1 {
+    flex-direction: column;
+    }
+    .hora_pag1 {
+        width: 100%;
+    }
+    .dados_pag1 {
+        width: 56%;
+    }
+    .hora_pag {
+        width: 102%;
+    }
+    .fundoCartao {
+        height: 169px;
+    }
+    .botaoCancel {
+        width: 35%;
+        height: 49%;
+        font-size: 13px;
+        padding-top: 6px;
+    }
+    .botaoConfir {
+        padding-top: 0px;
+        font-size: 13px;
+        height: 64%;
+ 
+    }
+    .fundoCartao {
+        padding-left: 36px;
+    }
+    .nav_responsiva {
+        display:flex;
+      }
+      
+      .nav-list {
+        position:absolute;
+        top:8vh;
+        right:0;
+        width:200px;
+        height:92vh;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+        transition:0.3s ease-in;
+        display:flex;
+      }
+      
+      .nav-list li {
+        margin-left:0;
+        opacity:0;
+      }
+      
+      .mobile-menu {
+        display:block;
+        
+      }
+      
+      .nav-list.active {
+        z-index:10;
+        transform: translateX(0);
+      }
+      
+      @keyframes navLinkFade {
+        from {
+            opacity:0;
+            transform:translateX(50px);
+        }
+        to {
+            opacity:1;
+            transform:translateX(0);
+        }
+      }
+      
+      .mobile-menu.active .line1 {
+      transform:rotate(-45deg) translate(-8px, 8px);
+      }
+      
+      .mobile-menu.active .line2 {
+      opacity:0;
+      }
+      
+      .mobile-menu.active .line3 {
+      transform:rotate(45deg) translate(-5px, -7px);
+      }
+}
+
+@media screen and (max-width:810px){
+    @media screen and (min-width:321px) {
+        
+    
+    .fundoCartao img{
+        display: none;
+    }
+    .fundo_foto {
+        position: relative;
+        width: 90%;
+        height: 396px;
+        left: 0px;
+        margin: auto;
+        border-radius: 20px;
+    }
+    .fundo_pag{
+       border-radius: 20px;
+        position: relative;
+        width: 90%;
+        margin: auto;
+        left: 0px;
+        height: auto;
+    }
+    .fundo_roxo_pag{
+        display: none;
+    }
+    .container_pag{
+        width: 100%;
+        padding-top: 50px;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .fundoBotao{
+        width: 81%;
+        height: 60px
+    }
+    .espacamento_mob{
+        visibility: visible;
+        height: 50px;
+        width: 100%;
+    }
+    .topico_pag p {
+        text-align: center;
+    }
+    .linha_title {
+        width: 81%;
+        margin: auto;
+    }
+    .dados_fundo1 {
+    flex-direction: column;
+    }
+    .hora_pag1 {
+        width: 100%;
+    }
+    .dados_pag1 {
+        width: 56%;
+    }
+    .hora_pag {
+        width: 102%;
+    }
+    .fundoCartao {
+        height: auto;
+    }
+
+    .botaoCancel {
+        padding-top: 14px;
+        font-size: 13px;
+        height: 47%;
+    }
+    .botaoConfir {
+        padding-top: 14px;
+        font-size: 13px;
+        height: 47%;
+    }
+    .valor{
+        margin-top: 130px;
+    }
+    .botaoValor {
+        height: 49%;
+        padding-top: 13px;
+    }
+    
+.nav_responsiva {
+    display:flex;
+  }
+  
+  .nav-list {
+    position:absolute;
+    top:8vh;
+    right:0;
+    width:200px;
+    height:92vh;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    transition:0.3s ease-in;
+    display:flex;
+  }
+  
+  .nav-list li {
+    margin-left:0;
+    opacity:0;
+  }
+  
+  .mobile-menu {
+    display:block;
+    
+  }
+  
+  .nav-list.active {
+    z-index:10;
+    transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+    from {
+        opacity:0;
+        transform:translateX(50px);
+    }
+    to {
+        opacity:1;
+        transform:translateX(0);
+    }
+  }
+  
+  .mobile-menu.active .line1 {
+  transform:rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+  opacity:0;
+  }
+  
+  .mobile-menu.active .line3 {
+  transform:rotate(45deg) translate(-5px, -7px);
+  }
+
+}
+}
+
+@media screen and (max-width:1100px){
+    @media screen and (min-width:810px) {
+ 
+        .title_horario1 {
+            margin-top: 17px;
+            font-size: 14px;
+        }
+        .hora_pag1 {
+            width: 80%;
+            height: 50px;
+        }
+        .title_horario {
+            margin-top: 17px;
+            font-size: 14px;
+        }
+        .horario_pag {
+            font-size: 14px;
+        }
+        .dados_pag {
+            width: 62%;
+        }
+        .fundo_pag{
+            padding: 10px;
+        }
+        .fundoBotao {
+            padding: 0px 50px 0px 25px;
+        }
+        .botaoValor {
+            width: 43%;
+        }
+        .fundo_foto {
+            height: 279px;
+            border-radius: 35px;
+        }
+    }
+}
