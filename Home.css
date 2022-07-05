@@ -1053,7 +1053,6 @@ height: 10.8vh;
 }
 
 .contato img{
-  float: left;
   margin-top: 0.7vh;
   margin-left: 7vw;
   margin-right: 0.4vw;
@@ -1063,8 +1062,8 @@ height: 10.8vh;
   width: 65vw;
   display: flex;
   flex-direction: row;
-  margin-left: 7vw;
-  justify-content: space-between;
+  margin-left: -7vw;
+  justify-content: space-evenly;
   color: white;
   font-size: 15px;
   font-family: Inder;
@@ -1074,15 +1073,36 @@ height: 10.8vh;
   margin-top: 18vh;
   font-weight: bold;
   cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 
 .ptd a:hover{
   color: #0b0020;
+  cursor: pointer;
 }
 
 #menu_responsivo{
   display: none;
 }
+
+.contato a{
+    color: white;
+    font-size: 19px;
+    font-family: Inder;
+    text-decoration: none;
+
+}
+
+.img18{
+  display: flex;
+}
+
+.contato a:hover{
+  color:#0b0020;
+  cursor: pointer;
+}
+
 
 
 /* Responsivo */
