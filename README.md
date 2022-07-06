@@ -13,15 +13,16 @@ Escolhemos “Novamente” como o nome de nossa plataforma por estar relacionado
 
 
 
-                                                  Desenvolvedores:
-                                                  Roberta da Silva
-                                                  Estela Rodrigues
-                                                  Cintya Sanini
-                                                  Ademir Alves
-                                                  Matheus Santos
-                                                  Patrick Gonzles
-                                                  Gabriel Carloto
+                                                                    Desenvolvedores:
+                                                                    Roberta da Silva
+                                                                    Estela Rodrigues
+                                                                    Cintya Sanini
+                                                                    Ademir Alves
+                                                                    Matheus Santos
+                                                                    Patrick Gonzles
+                                                                    Gabriel Carloto
                                                   
                    
-<img src="https://user-images.githubusercontent.com/89100877/177441310-58d30828-d01e-4fef-b23d-f9396d839d0b.png">
+<img width="400px"
+     src="https://user-images.githubusercontent.com/89100877/177441310-58d30828-d01e-4fef-b23d-f9396d839d0b.png">
 
