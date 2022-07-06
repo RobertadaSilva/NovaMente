@@ -21,3 +21,6 @@ Escolhemos “Novamente” como o nome de nossa plataforma por estar relacionado
                                                   Matheus Santos
                                                   Patrick Gonzles
                                                   Gabriel Carloto
+                                                  
+                          ![os guri](https://user-images.githubusercontent.com/89100877/177440974-69cec7b1-cc42-45c8-8249-67aaebb902a3.png)
+
