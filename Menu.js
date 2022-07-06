@@ -47,7 +47,6 @@ class MobileNavbar {
 
 
 
-
 function fecha_abre1(){
     
     document.getElementById("acessibilidade-hid").style.visibility="visible";
