@@ -23,5 +23,5 @@ Escolhemos “Novamente” como o nome de nossa plataforma por estar relacionado
                                                   Gabriel Carloto
                                                   
                    
-<img src="(https://user-images.githubusercontent.com/89100877/177441310-58d30828-d01e-4fef-b23d-f9396d839d0b.png)">
+<img src="https://user-images.githubusercontent.com/89100877/177441310-58d30828-d01e-4fef-b23d-f9396d839d0b.png">
 
