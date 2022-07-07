@@ -8,19 +8,66 @@
     <title>Document</title>
 </head>
 <body>
-        
     <main>
+        <header>
+            <nav class="nav-title">
+                <a href="../../index.html"> <span  style="color: #315A94;" >Nova<span class="title-purple">Mente</span></span></a>
+            </nav>
+            <nav class="nav-elements">
+                <a href="../../perfil_especialista/Especialista_perfi.html">Perfil</a>
+                <a href="../../prontuario/prontuario.html">Prontuário</a>
+                <a href="../../calendario_profissional/calendario.html">Consultas</a>
+                <a href="../blog-noticias-esp/blog-noticias-esp.html" style="color: #9D6BFF">Blog</a>
+                <a href="/pacientes/paciente.html">Receitas</a>
+            </nav>
+        </header>
         <nav>
-            
+            <nav class="nav_responsiva">
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="#">Prontuário</a></li>
+                    <li><a href="#">Consultas</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Receitas</a></li>
+                </ul>
+            </nav>
         </nav>
         <div class="perfil_usuario_responsivo">
-            <a href="">
-                <div class="menu_acessibilidade">
-                    <div class="icone_acessibilidade">
+            <a href="" onmouseover="aumentarTamanhoMenu()" onmouseout="voltarTamanhoOriginal()">
+                <div class="menu_acessibilidade_mobile">
+                    <div class="icone_acessibilidade_mobile">
                         <img src="Imagens/Acessibilidade.png">
-                    </div> 
-                </div>
+                    </div>
+                    <div class="opcoes_acessibilidade_responsivo1">
+                        <img src="Imagens/icon-escuro.png">
 
+                    </div>
+                    <div class="opcoes_acessibilidade_responsivo2">
+                        <img src="Imagens/icon-visao.png">
+
+                    </div>
+                    <div class="opcoes_acessibilidade_responsivo3">
+                        <img src="Imagens/icon-audio.png">
+
+                    </div>
+                    <div class="opcoes_acessibilidade_responsivo4">
+                        <img src="Imagens/icon-daltonismo.png">
+
+                    </div>
+                    <div class="opcoes_acessibilidade_responsivo5">
+                        <img src="Imagens/icon-libras.png">
+
+                    </div>
+                    <div class="opcoes_acessibilidade_responsivo6">
+                        <img src="Imagens/icon-cancela.png">
+
+                    </div>
+                </div>
             </a>
         </div>
         <div class="conteudo">
@@ -32,7 +79,7 @@
                 <div class="nome_sobre">
                     <div class="nome">
                         <div class="foto">
-
+                            <img src="Imagens/Ellipse 56.png">
                         </div>
                         <div class="descricao_nome">
                             <h1>Especialista</h1>
@@ -253,6 +300,19 @@
 
             </div>
         </div>
+        <script src="Perfil.js"></script>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                        <div class="vw-plugin-top-wrapper"></div>
+                </div>
+        </div>
+          
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
 
     </main>
     
