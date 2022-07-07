@@ -1,0 +1,1118 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+/*Importação das fontes*/
+@font-face {
+    font-family: "Inter";
+    src: url("Fontes/Inter-Light.ttf");
+}
+@font-face {
+    font-family: "Inder";
+    src: url("Fontes/Inder-Regular.ttf");
+}
+/*Fundo roxo*/
+.fundo_roxo{
+    background-color: #9D6BFF;
+    width: 98vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    border-bottom-right-radius: 2vw;
+
+
+}
+/*NAV CINTYA*/
+header{
+    position: relative;
+    width: 82%;
+    height: 57px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-left: 9%;
+    top: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Inter";
+    font-size: 20px;
+}
+  
+.nav-title{
+    width: 20%;
+    height: 30px;
+    margin: auto;
+}
+  
+.nav-title a{
+    text-decoration: none;
+    color: #000000;
+}
+  
+.title-purple{
+    color: #9D6BFF;
+}
+  
+.nav-elements{
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.nav-elements a{
+    text-decoration: none;
+    color: #000000;
+}
+/*Perfil usuario*/
+.perfil_usuario{
+    width: 15.5vw;
+    height: 40vh;
+    background-color: #9D6BFF;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -10vw;
+}
+.foto_usuario{
+    width: 9vw;
+    height: 15vh;
+    background-color: #9D6BFF;
+    margin-top: 3vh;
+}
+.foto_usuario img{
+    width: 100%;
+    height: 100%;
+}
+.nome_usuario{
+    width:11vw;
+    height: 5vh;
+    background-color: #9D6BFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vh;
+}
+.nome_usuario p{
+    color: #FFFFFF;
+    font-family: "Inter";
+
+}
+.opcao_usuario{
+    width: auto;
+    height: 4vh;
+    background-color: #9D6BFF;
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.engrenagem{
+    height: 4vh;
+    width: 2vw;
+    background-color: #9D6BFF;
+}
+.engrenagem img{
+    width: 100%;
+    height: 100%;
+}
+.editar_perfil{
+    height: 4vh;
+    width: auto;
+    background-color: #9D6BFF;
+    display: flex;
+    align-items: flex-end;
+}
+.perfil_usuario a{
+    text-decoration: none;
+    color: white;
+    font-family: "Inter";
+    font-size: 2vh;
+    
+}
+/*Conteudo do site*/
+.container_conteudo{
+    width: 98vw;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+/*Menu acessibilidade*/
+#acessibilidade{
+    position: relative;
+    width: 23.3%;
+    height: auto;
+    margin-left: 0vw;
+    margin-top: 5vh;
+}
+  
+.acessibilidade-box{
+    background: #F6F6F6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 106px;
+    height: 89px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+  
+.box-partition{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+  
+.acessibilidade-box p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #9D6BFF; 
+}
+/*Perfil Especialista*/
+.fundo_cinza{
+    width:70vw;
+    height:218vh;
+    background-color: #EBEBEB;
+    margin-top: -30vh;
+    margin-left: 5vw;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    display: flex;
+    flex-direction: row;
+}
+.foto_especialista{
+    width: 20vw;
+    height:60vh;
+    background-color: #f1f1f1;
+    margin-top: 10vh;
+    margin-left: 2.5vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.picture{
+    width: 9vw;
+    height: 17vh;
+    background-color: #f1f1f1;
+    margin-top: 6vh;
+}
+.picture img{
+    width: 100%;
+    height: 100%;
+}
+.nome_crp{
+    width: 20vw;
+    height: 7vh;
+    background-color: #f1f1f1;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nome_crp h1{
+    font-size: 3vh;
+    font-family: "Inter";
+    color:#9D6BFF;
+}
+.nome_crp p{
+    font-size: 2vh;
+    font-family: "Inter";
+}
+.botao_confirmar{
+    width: 8vw;
+    height:5vh;
+    background-color: #9D6BFF;
+    margin-top: 6vh;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.botao_confirmar p{
+    font-family: "Inter";
+    font-size: 2.5vh;
+    color: #FFFFFF;
+}
+.foto_especialista a{
+    text-decoration: none;
+}
+/*Descricao especialista*/
+.especificacao_especialista{
+    width: 42.5vw;
+    height: 97vw;
+    background-color: #f1f1f1;
+    margin-top: 10vh;
+    margin-left: 2.5vw;
+    border-radius: 2vw;
+}
+.tipo_especialista{
+    width:40.5vw;
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: #000;*/
+    margin-top: 6vh;
+    margin-left: 1vw;
+}
+.tipo_especialista h1{
+    font-family: "Inter";
+    color: #9D6BFF;
+    font-size: 3vh;
+}
+.semana_consulta{
+    width:40.5vw;
+    height: 6vh;
+    margin-left: 1vw;
+    /*background-color: aqua;*/
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dias_semana{
+    background-color: #9D6BFF;
+    width: 26vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: #000 1px solid;
+}
+.dia{
+    width: 3vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+.dia p{
+    font-family: "Inter";
+    color: #ffffff;
+}
+.semana_consulta a{
+    text-decoration: none;
+}
+.semana_consulta .dias_semana a:hover .dia p{
+    color: #56C62E;
+}
+
+.tempo_consulta{
+    width: 8vw;
+    height:6vh;
+    background-color: #9D6BFF;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.tempo_consulta p{
+    font-family: "Inter";
+    font-size: 1.5vh;
+    color: #FFFFFF;
+
+}
+.horarios{
+    width: 40.5vw;
+    height: 40vh;
+    margin-left: 1vw;
+    margin-top: 3vh;
+    background-color: #FFFFFF;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secao_horarios{
+    width: 38.5vw;
+    height: 5vh;
+    margin-top: 4vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.quadrado_horario{
+    width:4vw;
+    height:5vh;
+    background-color: #9D6BFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #000 1px solid;
+}
+.quadrado_horario p{
+    font-size: 1.6vh;
+    font-family: "Inter";
+    color: #FFFFFF;
+}
+.conteudo_profissional{
+    width: 40.5vw;
+    height: auto;
+    margin-left: 1vw;
+    margin-top: 3vh;
+    background-color: #FFFFFF;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo_conteudo{
+    width: 38.5vw;
+    height: 5vh;
+    margin-top: 3vh;
+    /*background-color: peru;*/
+    display: flex;
+    align-items: center;
+}
+.titulo_conteudo h1{
+    font-size: 3vh;
+    color:#9D6BFF;
+    font-family: "Inter";
+}
+.descricao_conteudo{
+    width: 38.5vw;
+    height: auto;
+    margin-top: 3vh;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.descricao_conteudo p{
+    font-size: 2.5vh;
+    color:#000;
+    font-family: "Inter";
+}
+.publicacao{
+    width: 40.5vw;
+    height: auto;
+    margin-left: 1vw;
+    margin-top: 3vh;
+    background-color: #FFFFFF;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.perfil_publicou{
+    width: 38.5vw;
+    height: 8vh;
+    margin-top: 3vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.foto_publicou{
+    width: 4vw;
+    height: 8vh;
+    background-color: #FFFFFF;
+}
+.foto_publicou img{
+    width: 100%;
+    height: 100%;
+}
+.nome_publicou{
+    width: 20vw;
+    height: 8vh;
+    background-color: #FFFFFF;
+    margin-left: 0.5vw;
+    display: flex;
+    align-items: center;
+}
+.nome_publicou p{
+    font-size: 2.5vh;
+    font-family: "Inter";
+    color: #000;
+}
+iframe{
+    width: 38.5vw;
+    height:38vh;
+    margin-top: 1vh;
+}
+.perfil_usuario_responsivo{
+    display: none;
+}
+.opcoes_acessibilidade_responsivo{
+    display: none;
+}
+.diferente{
+    display: none;
+}
+.perfil_usuario_responsivo{
+    display: none;
+}
+/*NAV Carloto*/
+.nav_responsiva {
+    display:none;
+    justify-content:space-around;
+    align-items:center;
+    font-family:Inter;
+    background-color:#FFF;
+    height:8vh;
+    border-bottom:1px solid #AFAFAF;
+}
+  
+.nav-list {
+    list-style:none;
+    display:none;
+}
+
+.nav-list.active {
+    background-color:#FFF;
+}
+  
+.nav-list li {
+    letter-spacing:3px;
+    margin-left:32px;
+}
+
+.nav-list ul {
+    width:80vw;
+    height:92vh;
+}
+
+.nav-list li a {
+    text-decoration:none;
+    color:#000;
+}
+  
+.mobile-menu {
+    display:none;
+    cursor:pointer;
+    margin-left:70vw;
+}
+  
+.mobile-menu div {
+    width:32px;
+    height:2px;
+    background:#ADADAD;
+    margin:8px;
+    transition:0.3s;
+}
+/*Mover icone do vlibras*/
+/*Responsivo*/
+@media only screen and (min-width: 319px) and (max-width: 767px) {
+    .fundo_roxo{
+        flex-direction: column;
+        background-color: #EBEBEB;
+        width: 96.30vw;
+    }
+    .container_conteudo{
+        width: 96.3vw;
+    }
+    /*nav Cintya*/
+    header{
+        display: none;
+    }
+    /*nav responsiva*/
+    nav{
+        margin-top: 0;
+        margin-left: 0;
+        width: 96.10vw;
+        height: 8.3vh;
+        border-radius: 0;
+        background-color: #FFFFFF;
+    }
+    /*NAV RESPONSIVO CARLOTO*/
+    .nav_responsiva {
+        display:flex;
+    }
+
+    .nav-list {
+        position:absolute;
+        top:8vh;
+        right:0;
+        width:200px;
+        height:92vh;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+        transition:0.3s ease-in;
+        display:flex;
+    }
+
+    .nav-list li {
+        margin-left:0;
+        opacity:0;
+    }
+
+    .mobile-menu {
+        display:block;
+        
+    }
+    
+    .nav-list.active {
+        z-index:10;
+        transform: translateX(0);
+    }
+    
+    @keyframes navLinkFade {
+        from {
+            opacity:0;
+            transform:translateX(50px);
+        }
+        to {
+            opacity:1;
+            transform:translateX(0);
+        }
+    }
+    
+    .mobile-menu.active .line1 {
+      transform:rotate(-45deg) translate(-8px, 8px);
+    }
+    
+    .mobile-menu.active .line2 {
+      opacity:0;
+    }
+    
+    .mobile-menu.active .line3 {
+      transform:rotate(45deg) translate(-5px, -7px);
+    }
+    .logo{
+        display:none;
+    }
+    .outras_opcoes{
+        display: none;
+    }
+    .perfil_usuario{
+        display: none;
+    }
+    #acessibilidade{
+        display: none;
+    }
+    /*Perfil usuário*/
+    .perfil_usuario_responsivo{
+        display: block;
+        width:96.30vw;
+        height:10vh;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: row;
+        margin-top: 5vh;
+    }
+    .foto_usuario_responsivo{
+        width: 11vw;
+        height: 10vh;
+        background-color: #EBEBEB;
+
+    }
+    .foto_usuario_responsivo img{
+        width: 100%;
+        height: 100%;
+    }
+    .nome_usuario_responsivo{
+        width:81vw;
+        height: 10vh;
+        background-color: #EBEBEB;
+        margin-left: 0.5vw;
+        display: flex;
+        align-items: center;
+    }
+    .nome_usuario_responsivo p{
+        font-size: 3vh;
+        color:#000;
+        font-family: "Inter";
+    }
+    .menu_acessibilidade_mobile{
+        position: fixed;
+        width:8vw;
+        height: 10vh;
+        background-color: #EBEBEB;
+        border-top-left-radius: 5vw;
+        border-bottom-left-radius: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: #000 1px solid;
+        z-index: 1;
+        left: 88vw;
+        top: 35vh;
+    }
+    .opcoes_acessibilidade_responsivo1{
+        display: none;
+        width: 6vw;
+        height: 5vh;
+        margin-top: 3vh;
+    }
+    .opcoes_acessibilidade_responsivo1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .opcoes_acessibilidade_responsivo2{
+        display: none;
+        width: 6vw;
+        height: 5vh;
+        margin-top: 3vh;
+    }
+    .opcoes_acessibilidade_responsivo2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .opcoes_acessibilidade_responsivo3{
+        display: none;
+        width: 6vw;
+        height: 5vh;
+        margin-top: 3vh;
+    }
+    .opcoes_acessibilidade_responsivo3 img{
+        width: 100%;
+        height: 100%;
+    }
+    .opcoes_acessibilidade_responsivo4{
+        display: none;
+        width: 6vw;
+        height: 5vh;
+        margin-top: 3vh;
+    }
+    .opcoes_acessibilidade_responsivo4 img{
+        width: 100%;
+        height: 100%;
+    }
+    .opcoes_acessibilidade_responsivo5{
+        display: none;
+        width: 6vw;
+        height: 5vh;
+        margin-top: 3vh;
+    }
+    .opcoes_acessibilidade_responsivo5 img{
+        width: 100%;
+        height: 100%;
+    }
+    .opcoes_acessibilidade_responsivo6{
+        display: none;
+        width: 6vw;
+        height: 5vh;
+        margin-top: 3vh;
+    }
+    .opcoes_acessibilidade_responsivo6 img{
+        width: 100%;
+        height: 100%;
+    }
+    .icone_acessibilidade_mobile{
+        width: 6vw;
+        height: 7vh;
+        background-color: #EBEBEB;
+        margin-left: 2vw;
+        margin-top: 1.5vh;
+    }
+    .icone_acessibilidade_mobile img{
+        width:100%;
+        height: 100%;
+    }
+    /*Conteudo*/
+    .fundo_cinza{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 96.30vw;
+        height: 260vh;
+        margin-left: 0;
+        margin-top: -34vh;
+        border-radius: 0;
+        background-color: #EBEBEB;
+    }
+    .foto_especialista{
+        width:70vw;
+        height:70vh;
+        margin-top: 5vh;
+    }
+    .picture{
+        width: 20vw;
+
+    }
+    .nome_crp{
+        width: 60vw;
+        margin-top: 5vh;
+
+    }
+    .botao_confirmar{
+        width: 16vw;
+        margin-top: 5vh;
+
+    }
+    .tipo_especialista{
+        display: none;
+    }
+    .especificacao_especialista{
+        width: 70vw;
+        height: auto;
+        margin-top: 5vh;
+    }
+    .semana_consulta{
+        width: 68vw;
+    }
+    .dias_semana{
+        width:50vw;
+    }
+    .dias_semana p{
+        font-size: 1.5vh;
+    }
+    .dia{
+        width:6.5vw;
+    }
+    .tempo_consulta{
+        width:16vw;
+    }
+    .tempo_consulta p{
+        font-size: 1.5vh;
+    }
+    .horarios{
+        width: 68vw;
+    }
+    .secao_horarios{
+        width:68vw;
+    }
+    .quadrado_horario{
+        width: 10vw;
+    }
+    .quadrado_horario p{
+        font-size: 1.7vh;
+    }
+    .conteudo_profissional{
+        width: 68vw;
+    }
+    .titulo_conteudo{
+        width: 66vw;
+        margin-left: 1.5vw;
+        margin-top: 0;
+    }
+    .descricao_conteudo{
+        width: 66vw;
+        margin-left: 1.5vw;
+    }
+    .publicacao{
+        width: 68vw;
+        height: auto;
+    }
+    .perfil_publicou{
+        width: 66vw;
+        height:7vh;
+        margin-left: 0.5vw;
+    }
+    .foto_publicou{
+        width: 8vw;
+        height:7vh;
+    }
+    .nome_publicou{
+        height:7vh;
+    }
+    iframe{
+        width: 68vw;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .fundo_roxo{
+        flex-direction: column;
+        background-color: #EBEBEB;
+        width: 97.5vw;
+    }
+    header{
+        display: none;
+    }
+    .container_conteudo{
+        width: 97.5vw;
+    }
+    /*nav responsiva*/
+    nav{
+        background-color: #FFFFFF;
+        margin-top: 0;
+        margin-left: 0;
+        width: 97vw;
+        height: 8.3vh;
+        border-radius: 0;
+    }
+    /*NAV RESPONSIVO CARLOTO*/
+    .nav_responsiva {
+        display:flex;
+    }
+
+    .nav-list {
+        position:absolute;
+        top:8vh;
+        right:0;
+        width:200px;
+        height:92vh;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+        transition:0.3s ease-in;
+        display:flex;
+    }
+
+    .nav-list li {
+        margin-left:0;
+        opacity:0;
+    }
+
+    .mobile-menu {
+        display:block;
+        
+    }
+    
+    .nav-list.active {
+        z-index:10;
+        transform: translateX(0);
+    }
+    
+    @keyframes navLinkFade {
+        from {
+            opacity:0;
+            transform:translateX(50px);
+        }
+        to {
+            opacity:1;
+            transform:translateX(0);
+        }
+    }
+    
+    .mobile-menu.active .line1 {
+      transform:rotate(-45deg) translate(-8px, 8px);
+    }
+    
+    .mobile-menu.active .line2 {
+      opacity:0;
+    }
+    
+    .mobile-menu.active .line3 {
+      transform:rotate(45deg) translate(-5px, -7px);
+    }
+    .logo{
+        display:none;
+    }
+    .outras_opcoes{
+        display: none;
+    }
+    .perfil_usuario{
+        display: none;
+    }
+    #acessibilidade{
+        display: none;
+    }
+    /*Perfil usuário*/
+    .perfil_usuario_responsivo{
+        display: block;
+        width:97.5vw;
+        height:10vh;
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: row;
+        margin-top: 5vh;
+    }
+    .foto_usuario_responsivo{
+        width: 8vw;
+        height: 10vh;
+        background-color: #EBEBEB;
+
+    }
+    .foto_usuario_responsivo img{
+        width: 100%;
+        height: 100%;
+    }
+    .nome_usuario_responsivo{
+        width:84vw;
+        height: 10vh;
+        background-color: #EBEBEB;
+        margin-left: 0.5vw;
+        display: flex;
+        align-items: center;
+    }
+    .nome_usuario_responsivo p{
+        font-size: 3vh;
+        color:#000;
+        font-family: "Inter";
+    }
+    .menu_acessibilidade_mobile{
+        position: fixed;
+        width:8vw;
+        height: 10vh;
+        background-color: #EBEBEB;
+        border: #000 0.1vh solid;
+        border-top-left-radius: 5vw;
+        border-bottom-left-radius: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+        left: 89vw;
+        top: 35vh;
+    }
+    .opcoes_acessibilidade_responsivo1{
+        display: none;
+        width: 4vw;
+        height: 5vh;
+        margin-top: 3vh;
+    }
+    .opcoes_acessibilidade_responsivo1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .opcoes_acessibilidade_responsivo2{
+        display: none;
+        width: 4vw;
+        height: 5vh;
+        margin-top: 3vh;
+    }
+    .opcoes_acessibilidade_responsivo2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .opcoes_acessibilidade_responsivo3{
+        display: none;
+        width: 4vw;
+        height: 5vh;
+        margin-top: 3vh;
+    }
+    .opcoes_acessibilidade_responsivo3 img{
+        width: 100%;
+        height: 100%;
+    }
+    .opcoes_acessibilidade_responsivo4{
+        display: none;
+        width: 4vw;
+        height: 5vh;
+        margin-top: 3vh;
+    }
+    .opcoes_acessibilidade_responsivo4 img{
+        width: 100%;
+        height: 100%;
+    }
+    .opcoes_acessibilidade_responsivo5{
+        display: none;
+        width: 4vw;
+        height: 5vh;
+        margin-top: 3vh;
+    }
+    .opcoes_acessibilidade_responsivo5 img{
+        width: 100%;
+        height: 100%;
+    }
+    .opcoes_acessibilidade_responsivo6{
+        display: none;
+        width: 4vw;
+        height: 5vh;
+        margin-top: 3vh;
+    }
+    .opcoes_acessibilidade_responsivo6 img{
+        width: 100%;
+        height: 100%;
+    }
+    .icone_acessibilidade_mobile{
+        width: 5vw;
+        height: 7vh;
+        background-color: #EBEBEB;
+        margin-left: 2vw;
+        margin-top: 1.5vh;
+    }
+    .icone_acessibilidade_mobile img{
+        width:100%;
+        height: 100%;
+    }
+    /*Conteudo*/
+    .fundo_cinza{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 97.5vw;
+        height: 260vh;
+        margin-left: 0;
+        margin-top: -34vh;
+        border-radius: 0;
+        background-color: #EBEBEB;
+    }
+    .foto_especialista{
+        width:70vw;
+        height:70vh;
+        margin-top: 5vh;
+    }
+    .picture{
+        width: 20vw;
+        height: 25vh;
+
+    }
+    .nome_crp{
+        width: 30vw;
+        margin-top: 5vh;
+
+    }
+    .botao_confirmar{
+        width: 15vw;
+        margin-top: 5vh;
+
+    }
+    .tipo_especialista{
+        display: none;
+    }
+    .especificacao_especialista{
+        width: 70vw;
+        margin-top: 5vh;
+        height: auto;
+    }
+    .semana_consulta{
+        width: 68vw;
+    }
+    .dias_semana{
+        width:50vw;
+    }
+    .dia{
+        width:6.5vw;
+    }
+    .tempo_consulta{
+        width:16vw;
+    }
+    .horarios{
+        width: 68vw;
+    }
+    .secao_horarios{
+        width:68vw;
+    }
+    .quadrado_horario{
+        width: 10vw;
+    }
+    .conteudo_profissional{
+        width: 68vw;
+    }
+    .titulo_conteudo{
+        width: 66vw;
+        margin-left: 1.5vw;
+        margin-top: 0;
+    }
+    .descricao_conteudo{
+        width: 66vw;
+        margin-left: 1.5vw;
+    }
+    .publicacao{
+        width: 68vw;
+        height: auto;
+    }
+    .perfil_publicou{
+        width: 66vw;
+        height:7vh;
+        margin-left: 0.5vw;
+    }
+    .foto_publicou{
+        width: 8vw;
+        height:7vh;
+    }
+    .nome_publicou{
+        height:7vh;
+    }
+    iframe{
+        width: 68vw;
+    }
+}
