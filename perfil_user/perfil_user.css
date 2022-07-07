@@ -77,7 +77,7 @@ header {
     width:80vw;
     height:85vh;
     background-color:#F5F5F5;
-    margin:10vh;
+    margin:10vh auto;
     border-radius:25px;
     display:flex;
     flex-direction:row;
