@@ -100,6 +100,49 @@
   .container-options img{
     width: 95%;
   }
+
+/*área de acessibilidade*/
+
+#acessibilidade{
+  position:absolute;
+  left:78%;
+top:550px;
+  width: 20%;
+  height: auto;
+
+}
+
+.acessibilidade-box{
+  background: #F6F6F6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 106px;
+  height: 89px;
+  margin-bottom: 20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.box-partition{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
+
+.acessibilidade-box p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #9D6BFF;
+
+}
+
+/*fim da área de acessibilidade*/
   
   
   /*área do perfil*/
