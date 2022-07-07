@@ -213,6 +213,12 @@ color: #4e4e4e;
     text-align: center;
     color: beige;
 }
+
+.botaoConfir a{
+    text-decoration: none;
+    color: beige;
+}
+
 .container_pag{
     width: 100%;
     height: auto;
