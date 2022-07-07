@@ -35,7 +35,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: "Inder";
+    font-family: "Inter";
     font-size: 20px;
 }
   
