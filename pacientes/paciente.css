@@ -21,7 +21,7 @@ main, html{
 }
 
 .container{
- background-image: url(imagens/home-deco.png);
+ background-image: url(Imagens/home-deco.png);
  background-repeat: no-repeat;
  background-position-x: right;
  width: 100%;
