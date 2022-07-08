@@ -1047,7 +1047,7 @@ height: 10.8vh;
   margin-left: 7.5vw;
 }
 
-.contato p{
+.contato a{
   width: 40vw;
   padding-left: 1.5vw;
 }
@@ -1060,6 +1060,7 @@ height: 10.8vh;
 }
 
 .ptd_nav{
+  text-decoration: none;
   width: 65vw;
   display: flex;
   flex-direction: row;
@@ -1071,6 +1072,7 @@ height: 10.8vh;
 }
 
 .ptd a{
+  text-decoration: none;
   margin-top: 18vh;
   font-weight: bold;
   cursor: pointer;
