@@ -1,0 +1,1222 @@
+@font-face {
+    font-family: Inder;
+    src: url(Fontes/Inder/Inder-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(Fontes/Inter-Regular.ttf);
+}
+
+*{
+    margin:0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(Imagens/backgroundloginprofi.png);
+    background-size:cover;
+    text-align: center;
+    height: auto;
+}
+
+#login{
+    position: relative;
+    width: 30%;
+    height: 550px; 
+    float: right;
+    margin-right: 10%;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    background-color: #F0F0F0;
+    z-index: 2;
+  }
+  
+  #login_img img{
+    position: relative;
+    margin-top: 25px;
+  }
+  
+  .novamente{
+    position: relative;
+    font-size: 33px;
+    font-weight: lighter;
+    margin-top: -30px;
+    font-family:Inter;
+    text-decoration: none;
+  }
+
+  #novamente{
+    color: #9D6BFF;
+  }
+  
+  .novamente a{
+  text-decoration: none;
+}
+
+  .novamente a:hover{
+    text-decoration: none;
+    color: black;
+  }
+
+  .novamente span{
+    color: #315A94;
+    text-decoration: none;
+  }
+
+  #fechar{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    font-family: Inter;
+    cursor: pointer;
+  }
+
+  #acessibilidade{
+    position: fixed;
+    width: 3%;
+    height: 55px;
+    background-color: #FFF;
+    right: 0%;
+    top: 230px;
+    border-radius: 100% 0 0 100%;
+    border: 1px solid #616161;
+    cursor: pointer;
+    visibility: visible;
+    z-index: 4;
+  }
+
+  #acessibilidade img{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 80%;
+  }
+
+  #acessibilidade-hid{
+    position: fixed;
+    width: 3%;
+    height: 250px;
+    background-color: #fff;
+    right: 0%;
+    top: 230px;
+    border-radius: 40px 0px 0 40px;
+    border: 1px solid #616161;
+    visibility: hidden;
+    z-index: 5;
+  }
+
+  #acessibilidade-hid img{
+    display: block;
+    margin-left: 10%;
+  }
+
+  .acess1{
+    width: 70%;
+    padding-top: 20px;
+    padding-left: 2px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .acess1-fake{
+    width: 70%;
+    margin-top: -27.5px;
+    padding-left: 2px;
+    cursor: pointer;
+    z-index: 9999;
+    visibility: hidden;
+  }
+
+  .acess2{
+    width: 68%;
+    padding-left:4px;
+    padding-top: 10px;
+  }
+
+  .acess3{
+    width: 45%;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+
+  .acess4{
+    width:65%;
+    padding-top: 10px;
+    padding-left: 2px;
+  }
+
+  .acess5{
+    width: 65%;
+    padding-top: 15px;
+    padding-left: 2px;
+  }
+
+  .acess6{
+    width: 70%;
+    padding-top: 20px;
+    padding-left: 2px;
+    cursor: pointer;
+  }
+  
+  .user input{
+    width: 72%;
+    font-size: 19px;
+    margin-top: 60px;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #575757;
+    border-radius: 10px;
+  }
+  
+  .password input{
+    width: 72%;
+    font-size: 19px;
+    margin-top: 20px;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #575757;
+    border-radius: 10px;
+  }
+  
+  #user::placeholder{
+    color: #8B8B8B;
+    
+  }
+  
+  #password::placeholder{
+    color: #8B8B8B;
+  }
+  
+  .forget_password{
+    font-family:Inter;
+    text-align: left;
+    margin-left: 13%;
+    margin-top: 30px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .forget_password:hover{
+    color: rgb(35, 160, 255);
+  }
+  
+  .line hr{
+    width: 70%;
+    margin: auto;
+    height: 0.5px;
+    margin-top: 23px;
+    background-color: #A9A9A9;
+  }
+  
+  .sign-in{
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 35%;
+    cursor: pointer;
+    color: black;
+    font-family: Inter;
+    text-decoration: none;
+  }
+  
+  .sign-in a:hover{
+    color: rgb(35, 160, 255);
+  }
+  
+  .button input{
+    width: 25%;
+    background-color: #9D6BFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.47);
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 8px 20px 8px 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: #E9E9E9;
+  }
+  
+  .button input:hover{
+    transform: scale(1.2);
+    transition: 1s all;
+
+  }
+
+  .palavra{
+      font-family: Inter;
+      font-size: 28px;
+      padding-top: 350px;
+      color: white;
+  }
+
+  /* ---- */
+
+    #create-acc{
+        position: relative;
+        width: 80%;
+        margin: auto;
+        margin-top: -290px;
+        height: 560px;
+        background-color: #F0F0F0;
+        border-radius: 20px;
+        z-index: 3;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+        display: none;
+    }
+
+    #create-acc img{
+      position: relative;
+    }
+
+    #create-acc h2{
+      font-family: Inter;
+      font-weight: 100;
+      color:#9D6BFF;
+      margin-left: -50%;
+     
+    }
+
+    .nome input{
+      position: relative;
+      font-size: 20px;
+      margin-left: 1%;
+      margin-top: 10px;
+      padding-left: 1%;
+      width: 65%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+    }
+
+    .email input{
+      display: block;
+      position: relative;
+      font-size: 20px;
+      margin-left: 17.5%;
+      margin-top: 10px;
+      padding-left: 1%;
+      width: 65%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+    }
+
+    .senha input{
+      position: relative;
+      font-size: 20px;
+      margin-left: 1%;
+      margin-top: 10px;
+      padding-left: 1%;
+      width: 65%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+    }
+
+    .cpf input{
+      position: relative;
+      font-size: 20px;
+      margin-left: 1%;
+      margin-top: 10px;
+      padding-left: 1%;
+      width: 65%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+    }
+
+    .innext1{
+      position: relative;
+      font-size: 20px;
+      display: block;
+      margin: auto;
+      margin-top: 30px;
+      width: 13%;
+      height: 40px;
+      border-radius: 10px;
+      background-color: #9D6BFF;
+      color: white;
+      cursor: pointer;
+    }
+
+    .passos{
+      margin-top: 20px;
+    }
+
+    .passos img{
+      cursor: pointer;
+    }
+
+    /* ------ */
+
+    #dados_pessoais{
+      position: relative;
+      width: 65%;
+      margin: auto;
+      margin-top: -290px;
+      height: 760px;
+      background-color: #F0F0F0;
+      border-radius: 20px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+      display: none;
+    }
+
+    .h2-1{
+      font-family: Inter;
+      font-weight: 100;
+      margin-left: -60%;
+      color: #9D6BFF;
+    }
+
+    .h2-2{
+      font-family: Inter;
+      font-weight: 100;
+      margin-left: 10.5%;
+      color: #585858;
+      font-size: 22px;
+      margin-top: 30px;
+      float: left;
+    }
+
+    .wrapper{
+      margin-top: 35px;
+      margin-left: 60%;
+    }
+
+    .form-group{
+      float: left; 
+      margin-right: 8%;
+    }
+
+    .form-group, .form-group2{
+      display: flex;
+      align-items: center;
+    }
+
+    .form-group label{
+      padding-left:10px;
+    }
+
+    .form-group2 label{
+      padding-left:10px;
+    }
+
+    .form-group2{
+      float: left;
+    }
+
+    .form-group span{
+      font-family: Inter;
+      font-size: 18px;
+    }
+
+    .form-group2{
+      font-family: Inter;
+      font-size: 18px;
+    }
+
+    .radio{
+      appearance: none;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background-color: #FFF;
+      border: 1px solid #585858;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .radio:before{
+      position: absolute;
+      content: '';
+      height: 12.5px;
+      width: 12.5px;
+      background: #585858;
+      border-radius:50%;
+      opacity: 0;
+    }
+
+    .radio:checked:before{
+      opacity: 1;
+    }
+
+    input#CEP{
+      margin-top: 20px;
+    }
+
+    .cep input{
+      width: 45%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+      padding-left: 1%;
+      font-size: 19px;
+    }
+
+    .uf input{
+      width: 15%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+      padding-left: 1%;
+      font-size: 19px;
+    }
+
+    .estado input{
+      width: 15%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+      padding-left: 1%;
+      font-size: 19px;
+    }
+
+    .cidade{
+      display: block;
+      margin-top: 20px;
+    }
+
+    .cidade input{
+      width: 78.5%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+      padding-left: 1%;
+      font-size: 20px;
+    }
+
+    .bairro{
+      display: block;
+      margin-top: 20px;
+    }
+
+    .bairro input{
+      width: 78.5%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+      padding-left: 1%;
+      font-size: 20px;
+    }
+
+    .rua input{
+      width: 57%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+      padding-left: 1%;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    .complemento{
+      margin-top: 20px;
+    }
+
+    .complemento input{
+      width: 20%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+      padding-left: 1%;
+      font-size: 20px;
+    }
+
+    .telefone{
+      display: block;
+      margin-top: 20px;
+    }
+
+    .telefone input{
+      width: 78.5%;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #575757;
+      padding-left: 1%;
+      font-size: 20px;
+    }
+
+    .next2 input{
+      position: relative;
+      font-size: 20px;
+      margin: auto;
+      margin-top: 40px;
+      margin-left: 2%;
+      width: 13%;
+      height: 40px;
+      border-radius: 10px;
+      background-color: #9D6BFF;
+      color: white;
+      cursor: pointer;
+    }
+
+    .back input{
+      position: relative;
+      font-size: 20px;
+      margin: auto;
+      margin-top: 30px;
+      width: 13%;
+      height: 40px;
+      border-radius: 10px;
+      background-color: #9D6BFF;
+      color: white;
+      cursor: pointer;
+    }
+
+    .passos2{
+      margin-top: 30px;
+    }
+
+    .passos2 img{
+      cursor: pointer;
+    }
+
+    #set_the_password{
+      position: absolute;
+      width: 30%;
+      height: 550px;
+      background-color:#F0F0F0;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+      top: 100px;
+      border-radius: 20px;
+      margin-left: 60%;
+      z-index: 4;
+      display: none ;
+    }
+  
+    .p1{
+      font-size: 25px;
+      font-family: Inter;
+      color: #9D6BFF;
+    }
+  
+    .p2{
+      color: #626262;
+      font-family: Inter;
+      margin-top: 40px;
+    }
+  
+    #sendemail{
+      position: relative;
+      font-family: Inter;
+      border-radius: 10px;
+      width: 70%;
+      font-size: 18px;
+      margin-top: 60px;
+      padding: 15px 0 15px 2%;
+      border: 1px solid #575757;
+    }
+  
+    #button3{
+      display: block;
+      font-size: 20px;
+      font-family: Inter;
+      text-align: center;
+      margin-top: 90px;
+      margin-left: 10vw;
+      padding: 15px 10% 15px 10%;
+      border-radius: 10px;
+      background-color: #9D6BFF;
+      color: white;
+      cursor: pointer;
+    }
+  
+    #button3:hover{
+      transform: scale(1.1);
+      transition: 1s all;
+    }
+    
+    #fechar2{
+      position: absolute;
+      right: 4%;
+      font-family: Inder;
+      top: 15px;
+      cursor: pointer;
+    }
+  
+    #set_the_password2{
+      position: absolute;
+      width: 50%;
+      height: 550px;
+      background-color:#F0F0F0;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+      top: 100px;
+      border-radius: 20px;
+      margin-left: 25%;
+      z-index: 5;
+      display: none;
+    }
+  
+    .p3{
+      font-size: 25px;
+      font-family: Inter;
+      color: #9D6BFF;
+      margin-top: 100px;
+    }
+  
+    .p4{
+      font-size: 18px;
+      font-family: Inter;
+      text-align: left;
+      margin-left: 23.2%;
+      margin-top: 40px;
+    }
+  
+    #choose{
+      width: 50%;
+      display: block;
+    }
+  
+    #choose_password{
+      display: block;
+      position: relative;
+      font-family: Inter;
+      border-radius: 10px;
+      width: 100%;
+      height: 50px;
+      font-size: 18px;
+      margin-top: 30px;
+      margin-left: 45%;
+      padding-left: 1.5%;
+      border: 1px solid #575757;
+    }
+  
+    #repeat_password{
+      position: relative;
+      font-family: Inter;
+      border-radius: 10px;
+      width: 100%;
+      height: 50px;
+      font-size: 18px;
+      margin-top: 30px;
+      margin-left: 45%;
+      padding-left: 1.5%;
+      border: 1px solid #575757;
+    }
+  
+    #button4{
+      display: block;
+      font-size: 20px;
+      font-family: Inter;
+      text-align: center;
+      margin-top: 90px;
+      margin-left: 81%;
+      width: 35%;
+      height: 50px;
+      border-radius: 10px;
+      background-color: #9D6BFF;
+      color: white;
+      cursor: pointer;
+    }
+  
+    #button4:hover{
+      transform: scale(1.1);
+      background-color: rgb(255, 255, 255);
+    }
+
+    .js .teste {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1; 
+  }
+  
+  .teste + label {
+      max-width: 80%;
+      font-size: 1.25rem;
+      font-weight: 700;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      cursor: pointer;
+      display: inline-block;
+      overflow: hidden;
+      padding: 0.625rem 1.25rem;
+  }
+  
+  .no-js .teste + label {
+      display: none;
+  }
+  
+  .teste:focus + label,
+  .teste.has-focus + label {
+      outline: 1px dotted #000;
+      outline: -webkit-focus-ring-color auto 5px;
+  
+  }
+  
+  .teste + label svg {
+      width: 1em;
+      height: 1em;
+      vertical-align: middle;
+      fill: currentColor;
+      margin-top: -0.25em;
+      margin-right: 0.25em; 
+  }
+
+  .inputfile-2 + label {
+      color: #d3394c;
+      border: 2px solid currentColor;
+  }
+  
+  .inputfile-2:focus + label,
+  .inputfile-2.has-focus + label,
+  .inputfile-2 + label:hover {
+      color: #722040;
+  }
+  
+  .box{
+      width: 50%;
+      height: 100px;
+      background-color: #ECECEC;
+      border-radius: 10px;
+      margin: auto;
+  }
+  
+  .box input{
+      margin: auto;
+  }
+  
+  .labelmain{
+      margin-left: 5%;
+      margin-top: 25px;
+  }
+  
+  .file{
+      color: #5F5757;
+  }
+  
+   #documentos_psicologo{
+          position: absolute;
+          width: 60%;
+          height: 1500px;
+          margin-top: -285px;
+          margin-left: 20%;
+          background-color: #F0F0F0;
+          border-radius: 10px;
+          z-index: 5;
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+          display: none;
+      }
+  
+      #documentos_psicologo h2{
+        font-family: Inter;
+        font-weight: 100;
+        color: #9D6BFF;
+        margin-top: 40px;
+      }
+  
+      .documento1{
+        position: relative;
+        width: 85%;
+        height: 220px;
+        margin-top: 30px;
+        margin-left: 7.5%;
+      }
+  
+      .h3-1 h3{
+        font-family: Inter;
+        font-weight: 100;
+        color: #9D6BFF;
+        margin-top: 50px;
+        margin-left: -55%;
+      } 
+  
+     .branca1{
+       width: 100%;
+       height: 170px;
+       background-color: #F7F7F7;
+       box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+       border-radius: 10px;
+       margin-top: 15px;
+     }
+  
+     .documento2{
+      position: relative;
+      width: 85%;
+      height: 220px;
+      margin-top: -25px;
+      margin-left: 7.5%;
+    }
+  
+    .h3-2 h3{
+      font-family: Inter;
+      font-weight: 100;
+      color: #9D6BFF;
+      margin-top: 50px;
+      margin-left: -55%;
+    } 
+  
+    .branca2{
+      width: 100%;
+      height: 170px;
+      background-color: #F7F7F7;
+      box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+  
+    .documento3{
+      position: relative;
+      width: 85%;
+      height: 220px;
+      margin-top: -25px;
+      margin-left: 7.5%;
+    }
+  
+    .h3-3 h3{
+      font-family: Inter;
+      font-weight: 100;
+      color: #9D6BFF;
+      margin-top: 50px;
+      margin-left: -70%;
+    }
+  
+    .branca3{
+      width: 100%;
+      height: 170px;
+      background-color: #F7F7F7;
+      box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+  
+    .documento4{
+      position: relative;
+      width: 85%;
+      height: 220px;
+      margin-top: -25px;
+      margin-left: 7.5%;
+    }
+  
+    .h3-4 h3{
+      font-family: Inter;
+      font-weight: 100;
+      color: #9D6BFF;
+      margin-top: 50px;
+      margin-left: -86%;
+    }
+  
+    .branca4{
+      width: 100%;
+      height: 170px;
+      background-color: #F7F7F7;
+      box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+  
+    .documento5{
+      position: relative;
+      width: 85%;
+      height: 220px;
+      margin-top: -25px;
+      margin-left: 7.5%;
+    }
+  
+    .h3-5 h3{
+      font-family: Inter;
+      font-weight: 100;
+      color: #9D6BFF;
+      margin-top: 50px;
+      margin-left: -65%;
+    }
+  
+    .branca5{
+      width: 100%;
+      height: 170px;
+      background-color: #F7F7F7;
+      box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+  
+    .done input{
+      position: relative;
+      font-size: 20px;
+      margin: auto;
+      margin-top: 40px;
+      margin-left: 2%;
+      width: 13%;
+      height: 40px;
+      border-radius: 10px;
+      background-color: #9D6BFF;
+      color: white;
+      cursor: pointer;
+    }
+  
+    #file-2{
+      margin-top: 100px;
+    }
+
+  .passos3{
+    margin-top: 20px;
+  }
+
+  .passos3 img{
+    cursor: pointer;
+  }
+
+  input[type="file"]{
+    display: none;
+  }
+
+  .arquivo1{
+    width: 50%;
+    height: 130px;
+    border: 1px dashed #575757;
+    background: #ECECEC;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding-top:0px ;
+   
+  }
+
+  .divarquivo1{
+    padding-top: 15px;
+  }
+
+  .lala{
+   margin-top: 55px;
+   font-size: 18px;
+   font-family: Inter;
+   color: #9D6BFF;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lala span{
+    font-size: 60px;
+    line-height: 10px;
+    margin-right: 3%;
+    margin-top: -10px;
+    
+  }
+
+  @media only screen and (min-width:768px){
+    @media only screen and (max-width:1040px){
+
+      #button3{
+        margin-left: 25vw;
+      }
+
+      .h3-1 h3 {
+        margin-left: -30vw;
+      }
+
+      .h3-2 h3{
+        margin-left: -27vw;
+      }
+
+      .h3-3 h3{
+        margin-left: -41vw;
+      }
+
+      .h3-5 h3{
+        margin-left: -38vw;
+      }
+
+    }}
+
+  @media only screen and (min-width:240px){
+    @media only screen and (max-width:1023px){
+
+      body{
+        background-size:cover;
+      }
+
+      .palavra{
+        display: none;
+      }
+
+      #login{
+        width: 80vw;
+        margin-top: 12vh;
+      }
+
+      .user input{
+        font-size: 17px;
+       }
+  
+       .password input{
+        font-size: 17px;
+       }
+
+      #set_the_password{
+        width: 80vw;
+        margin-top: -3.3vh;      
+        margin-left: 10vw; 
+      }
+
+      #sendemail{
+        font-size: 17px;
+      }
+
+      #set_the_password2{
+        width: 80vw;
+        margin-top: -6vh;
+        margin-left: 10vw;
+      }
+
+      #button3{
+        margin-left: 25vw;
+      }
+
+      .p4{
+        margin-left: 16vw;
+      }
+
+      #choose_password{
+        width: 50vw;
+        font-size: 15px;
+        margin-top: 8vh;
+        margin-left: 15vw;
+      }
+
+      #repeat_password{
+        width: 50vw;
+        font-size: 15px;
+        margin-left: 15vw;
+      }
+
+      #button4{
+        width: 22vw;
+        margin-left: 28vw;
+        margin-top: 8vh;
+      }
+
+      #create-acc{
+        margin-top: 8vh;
+      }
+
+      #documentos_psicologo{
+        width: 80vw;
+        margin-top: 12vh;
+        margin-left: 11vw;
+      }
+
+      .done input{
+        width: 16vw;
+        font-size: 16px;
+      }
+
+      #documentos_psicologo h2{
+        font-size: 20px;
+    }
+
+    }
+  }
+
+  @media only screen and (min-width:320px){
+    @media only screen and (max-width:659px){
+
+     .user input{
+      font-size: 17px;
+     }
+
+     .password input{
+      font-size: 17px;
+     }
+      
+     .button input{
+      width: 35%;
+     }
+
+     .p1{
+      font-size: 21.5px;
+     }
+
+     .p2{
+      font-size: 16px;
+     }
+
+     .p4{
+      margin-left: 8vw;
+     }
+
+     #button4{
+      font-size: medium;
+     }
+
+     .h3-1 h3{
+      font-size: 15px;
+      margin-left: -6vw;
+    }
+
+    .h3-2 h3{
+      font-size: 15px;
+      margin-left: -1vw;
+    }
+
+    .h3-3 h3{
+      font-size: 15px;
+      margin-left: -4vw;
+    }
+
+    .h3-4 h3{
+      font-size: 15px;
+      margin-left: -4vw;
+    }
+
+    .h3-5 h3{
+      font-size: 15px;
+      margin-left: -4vw;
+    }
+    }
+  }
+
+    @media only screen and (min-width:320px){
+      @media only screen and (max-width:1040px){
+        
+        #create-acc h2{
+          margin-left: -10vw;
+        }
+
+        .h2-1{
+          margin-left: -30vw;
+        }
+
+        .next1 input{
+          width: 25vw;
+          font-size: 16px;
+        }
+
+        #dados_pessoais{
+          margin-top: 10vh;
+          width: 90vw;
+          height: 770px;
+        }
+
+        .back input{
+          width: 25vw;
+          font-size: 16px;
+        }
+
+        .next2 input{
+          width: 25vw;
+          font-size: 16px;
+        }
+
+        #CEP, #UF, #Estado, .cidade input, .bairro input, .complemento input, .telefone input{
+          font-size: 17px;
+        }
+        
+        .form-group, .form-group2{
+          margin-left: -2vw;
+        }
+
+        .done input{
+          width: 25vw;
+        }
+
+      }}
+
+      @media only screen and (min-width:425px){
+        @media only screen and (max-width:1040px){
+          #documentos_psicologo h2{
+              font-size: 20px;
+          }
+
+        }}

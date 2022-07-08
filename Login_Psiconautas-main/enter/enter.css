@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  @font-face{
+      font-family: inder;
+      src: url(fontes/Inder-Regular.ttf);
+  }
+  
+  @font-face{
+      font-family: inter;
+      src: url(fontes/Inter-Regular.ttf);
+  }
+
+  body{overflow-x: hidden;}
+  
+  main{
+    position: relative;
+    background-color: #E5E5E5;
+  }
+  
+  #purple-background{
+    position:relative;
+    display: flex;
+   flex-direction: column;
+    width: 100%;
+    height: 495px;
+    background: #9D6BFF;
+  
+  }
+  
+  /* header inicio*/
+  
+  header{
+    position: relative;
+    width: 82%;
+    height: 57px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-left: 9%;
+    top: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: inter;
+    font-size: 20px;
+  }
+  
+  .nav-title{
+    width: 20%;
+    height: 30px;
+    margin: auto;
+    font-size: 27px;
+
+  }
+  
+  .nav-title a{
+    text-decoration: none;
+    color: #315A94;
+  }
+  
+  .title-purple{
+    color: #9D6BFF;
+  }
+  
+  .nav-elements{
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-elements a{
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  /*header final*/
+
+
+.profilepic{
+    font-family: inder;
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-image:url(images/fotoperfil.png);
+    background-size: cover;
+    cursor: pointer;   
+
+}
+
+
+.mensagem{
+    
+    margin: auto;
+    position: relative;
+    
+    height: 30vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textocuidando {
+    width: 80vw;
+    height: 30vh;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.logodois{
+    width: 20vw;
+    height: 15vh;;
+    margin: 0 auto;
+    margin-top: 2vh;
+}
+
+.logodois img {
+    width: 6.5vw;
+    height: 15vh;
+}
+
+.ola{
+    font-size: 1.6vw;
+}
+
+.imagens{
+    position: absolute;
+    width: 80vw;
+    height: 40vh;
+    background-color: #F1F1F1;
+  font-family: inder;
+    left:10vw;
+    border-radius: 4vw;
+    display: flex;
+    align-items: center;
+    top: 380px;
+}
+
+.imgarea1{
+    width: 33vw;
+    height: 35vh;
+    border-radius: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5vw;
+    flex-direction: column;
+
+    
+}
+
+.imgarea2{
+    width: 25vw;
+    height: 35vh;
+    border-radius: 4vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+}
+
+.imgarea3{
+    width: 33vw;
+    height: 35vh;
+    border-radius: 4vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 5vw;
+ 
+}
+
+.imgarea1 a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #000;
+}
+.imgarea2 a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #000;
+}
+.imgarea3 a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.rodape{
+
+    background-color: rgb(255, 0, 0);
+    width: 100vw;
+    height: 33vh;
+    
+}
+
+#acessibilidade{
+    position: fixed;
+    width: 3%;
+    height: 55px;
+    background-color: #FFF;
+    right: 0%;
+    top: 250px;
+    border-radius: 100% 0 0 100%;
+    border: 1px solid #616161;
+    cursor: pointer;
+    z-index: 4;
+    display: block;}
+
+#acessibilidade img{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 80%;}
+
+#acessibilidade-hid{
+    position: fixed;
+    width: 3%;
+    height: 250px;
+    background-color: #fff;
+    right: 0%;
+    top: 230px;
+    border-radius: 40px 0px 0 40px;
+    border: 1px solid #616161;
+    visibility: hidden;
+    z-index: 5;
+    display: block;}
+
+#acessibilidade-hid img{
+    display: block;
+    margin-left: 10%;}
+
+.acess1{
+
+    padding-top: 20px;
+    padding-left: 2px;
+    cursor: pointer;
+    z-index: 1;}
+
+.acess1-fake{
+    width: 70%;
+    margin-top: -24px;
+    padding-left: 2px;
+    cursor: pointer;
+    z-index: 9999;
+    visibility: hidden;}
+
+.acess2{
+    width: 80%;
+    padding-left:4px;
+    padding-top: 10px;}
+
+.acess3{
+    width: 65%;
+    padding-left: 6px;
+    padding-top: 10px;}
+
+.acess4{
+    width:70%;
+    padding-top: 10px;
+    padding-left: 2px;}
+
+.acess5{
+    width: 70%;
+    padding-top: 15px;
+    padding-left: 2px;}
+
+.acess6{
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 2px;
+}
