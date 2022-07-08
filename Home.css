@@ -948,7 +948,9 @@ height: 10.8vh;
 
 .sec_footer{              
                             background: #9D6BFF;
-                            height: auto;}
+                            height: auto;
+                            margin-top: 5vh;
+}
 
 .palavras-footer{
                           width: 68%;
