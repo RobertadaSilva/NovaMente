@@ -1047,7 +1047,8 @@ height: 10.8vh;
   margin-left: 7.5vw;
 }
 
-.contato p{
+.contato a{
+  text-decoration: none;
   width: 40vw;
   padding-left: 1.5vw;
 }
