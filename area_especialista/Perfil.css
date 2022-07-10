@@ -6,7 +6,7 @@
 /*Importação da fonte*/
 @font-face {
     font-family: "Inter";
-    src: url("Fontes/Inter-Regular.ttf");
+    src: url("Fontes/Inter-Light.ttf");
 }
 main{
     background-color: #EBEBEB;
@@ -392,24 +392,25 @@ input{
 /*Menu acessibilidade*/
 .menu_acessibilidade_mobile{
     position: fixed;
-    width:5vw;
-    height: 10vh;
+    width:3vw;
+    height: 6vh;
     background-color: #F3F3E9;
     border-top-left-radius: 5vw;
     border-bottom-left-radius: 5vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     border: #000 0.1vw solid;
     z-index: 1;
-    left: 92vw;
-    top: 13vh;
+    left: 94.5vw;
+    top: 35vh;
+    cursor: pointer;
 }
 .opcoes_acessibilidade_responsivo1{
     display: none;
     width: 2vw;
     height: 3vh;
-    margin-top: 4.8vh;
 }
 .opcoes_acessibilidade_responsivo1 img{
     width: 100%;
@@ -419,7 +420,7 @@ input{
     display: none;
     width: 2vw;
     height: 3vh;
-    margin-top: 4.8vh;
+    margin-top: 2vh;
 }
 .opcoes_acessibilidade_responsivo2 img{
     width: 100%;
@@ -429,7 +430,7 @@ input{
     display: none;
     width: 2vw;
     height: 3vh;
-    margin-top: 4.8vh;
+    margin-top: 2vh;
 }
 .opcoes_acessibilidade_responsivo3 img{
     width: 100%;
@@ -439,7 +440,7 @@ input{
     display: none;
     width: 2vw;
     height: 3vh;
-    margin-top: 4.8vh;
+    margin-top: 2vh;
 }
 .opcoes_acessibilidade_responsivo4 img{
     width: 100%;
@@ -449,7 +450,7 @@ input{
     display: none;
     width: 2vw;
     height: 3vh;
-    margin-top: 4.8vh;
+    margin-top: 2vh;
 }
 .opcoes_acessibilidade_responsivo5 img{
     width: 100%;
@@ -459,7 +460,7 @@ input{
     display: none;
     width: 2vw;
     height: 3vh;
-    margin-top: 4.8vh;
+    margin-top: 2vh;
 }
 .opcoes_acessibilidade_responsivo6 img{
     width: 100%;
@@ -467,11 +468,10 @@ input{
 }
 .icone_acessibilidade_mobile{
     display: block;
-    width: 3vw;
-    height: 7vh;
+    width: 2vw;
+    height: 4vh;
     background-color: #F3F3E9;
-    margin-left: 2vw;
-    margin-top: 1.5vh;
+    cursor: pointer;
 }
 .icone_acessibilidade_mobile img{
     width:100%;
@@ -610,23 +610,23 @@ input{
     }
     .menu_acessibilidade_mobile{
         position: fixed;
-        width:8vw;
-        height: 10vh;
+        width:5vw;
+        height: 6vh;
         background-color: #F3F3E9;
         border-top-left-radius: 5vw;
         border-bottom-left-radius: 5vw;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         z-index: 1;
-        left: 88vw;
-        top: 13vh;
+        left: 91vw;
+        top: 35vh;
     }
     .opcoes_acessibilidade_responsivo1{
         display: none;
-        width: 6vw;
-        height: 5vh;
-        margin-top: 3vh;
+        width: 4vw;
+        height: 4vh;
     }
     .opcoes_acessibilidade_responsivo1 img{
         width: 100%;
@@ -634,9 +634,9 @@ input{
     }
     .opcoes_acessibilidade_responsivo2{
         display: none;
-        width: 6vw;
-        height: 5vh;
-        margin-top: 3vh;
+        width: 4vw;
+        height: 4vh;
+        margin-top: 2vh;
     }
     .opcoes_acessibilidade_responsivo2 img{
         width: 100%;
@@ -644,9 +644,9 @@ input{
     }
     .opcoes_acessibilidade_responsivo3{
         display: none;
-        width: 6vw;
-        height: 5vh;
-        margin-top: 3vh;
+        width: 4vw;
+        height: 4vh;
+        margin-top: 2vh;
     }
     .opcoes_acessibilidade_responsivo3 img{
         width: 100%;
@@ -654,9 +654,9 @@ input{
     }
     .opcoes_acessibilidade_responsivo4{
         display: none;
-        width: 6vw;
-        height: 5vh;
-        margin-top: 3vh;
+        width: 4vw;
+        height: 4vh;
+        margin-top: 2vh;
     }
     .opcoes_acessibilidade_responsivo4 img{
         width: 100%;
@@ -664,9 +664,9 @@ input{
     }
     .opcoes_acessibilidade_responsivo5{
         display: none;
-        width: 6vw;
-        height: 5vh;
-        margin-top: 3vh;
+        width: 4vw;
+        height: 4vh;
+        margin-top: 2vh;
     }
     .opcoes_acessibilidade_responsivo5 img{
         width: 100%;
@@ -674,9 +674,10 @@ input{
     }
     .opcoes_acessibilidade_responsivo6{
         display: none;
-        width: 6vw;
-        height: 5vh;
-        margin-top: 3vh;
+        width: 4vw;
+        height: 4vh;
+        margin-top: 2vh;
+        cursor: pointer;
     }
     .opcoes_acessibilidade_responsivo6 img{
         width: 100%;
@@ -684,11 +685,13 @@ input{
     }
     .icone_acessibilidade_mobile{
         display: block;
-        width: 6vw;
-        height: 7vh;
+        width: 4vw;
+        height: 4vh;
         background-color: #F3F3E9;
-        margin-left: 2vw;
-        margin-top: 1.5vh;
+        margin-top: 0;
+        margin-left: 1vw;
+        cursor: pointer;
+
     }
     .icone_acessibilidade_mobile img{
         width:100%;
@@ -926,24 +929,24 @@ input{
     }
     .menu_acessibilidade_mobile{
         position: fixed;
-        width:8vw;
-        height: 10vh;
+        width:4vw;
+        height: 5vh;
         background-color: #F3F3E9;
         border-top-left-radius: 5vw;
         border-bottom-left-radius: 5vw;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        border: #000 0.1vw solid;
         z-index: 1;
-        left: 89vw;
-        top: 13vh;
+        left: 93vw;
+        top: 35vh;
     }
     .opcoes_acessibilidade_responsivo1{
         display: none;
-        width: 4vw;
-        height: 5vh;
-        margin-top: 3vh;
+        width: 3vw;
+        height: 4vh;
+        margin-top: 2vh;
     }
     .opcoes_acessibilidade_responsivo1 img{
         width: 100%;
@@ -951,9 +954,9 @@ input{
     }
     .opcoes_acessibilidade_responsivo2{
         display: none;
-        width: 4vw;
-        height: 5vh;
-        margin-top: 3vh;
+        width: 3vw;
+        height: 4vh;
+        margin-top: 2vh;
     }
     .opcoes_acessibilidade_responsivo2 img{
         width: 100%;
@@ -961,9 +964,9 @@ input{
     }
     .opcoes_acessibilidade_responsivo3{
         display: none;
-        width: 4vw;
-        height: 5vh;
-        margin-top: 3vh;
+        width: 3vw;
+        height: 4vh;
+        margin-top: 2vh;
     }
     .opcoes_acessibilidade_responsivo3 img{
         width: 100%;
@@ -971,9 +974,9 @@ input{
     }
     .opcoes_acessibilidade_responsivo4{
         display: none;
-        width: 4vw;
-        height: 5vh;
-        margin-top: 3vh;
+        width: 3vw;
+        height: 4vh;
+        margin-top: 2vh;
     }
     .opcoes_acessibilidade_responsivo4 img{
         width: 100%;
@@ -981,9 +984,9 @@ input{
     }
     .opcoes_acessibilidade_responsivo5{
         display: none;
-        width: 4vw;
-        height: 5vh;
-        margin-top: 3vh;
+        width: 3vw;
+        height: 4vh;
+        margin-top: 2vh;
     }
     .opcoes_acessibilidade_responsivo5 img{
         width: 100%;
@@ -991,9 +994,10 @@ input{
     }
     .opcoes_acessibilidade_responsivo6{
         display: none;
-        width: 4vw;
-        height: 5vh;
-        margin-top: 3vh;
+        width: 3vw;
+        height: 4vh;
+        margin-top: 2vh;
+        cursor: pointer;
     }
     .opcoes_acessibilidade_responsivo6 img{
         width: 100%;
@@ -1001,11 +1005,13 @@ input{
     }
     .icone_acessibilidade_mobile{
         display: block;
-        width: 5vw;
-        height: 7vh;
+        width: 3vw;
+        height: 4vh;
         background-color: #F3F3E9;
-        margin-left: 2vw;
-        margin-top: 1.5vh;
+        margin-top: 0;
+        margin-left: 1vw;
+        cursor: pointer;
+
     }
     .icone_acessibilidade_mobile img{
         width:100%;
