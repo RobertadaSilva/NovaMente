@@ -7,7 +7,7 @@ function aumentarTamanhoMenu(){
     var iconeSurgir4 = document.querySelector(".opcoes_acessibilidade_responsivo4");
     var iconeSurgir5 = document.querySelector(".opcoes_acessibilidade_responsivo5");
     var iconeSurgir6 = document.querySelector(".opcoes_acessibilidade_responsivo6");
-    acessivel.style.height = '51vh';
+    acessivel.style.height = '40vh';
     icone.style.display = 'none';
     iconeSurgir1.style.display = 'block';
     iconeSurgir2.style.display = 'block';
@@ -25,7 +25,7 @@ function voltarTamanhoOriginal(){
     var iconeSurgir4 = document.querySelector(".opcoes_acessibilidade_responsivo4");
     var iconeSurgir5 = document.querySelector(".opcoes_acessibilidade_responsivo5");
     var iconeSurgir6 = document.querySelector(".opcoes_acessibilidade_responsivo6");
-    acessivel.style.height = '10vh';
+    acessivel.style.height = '5vh';
     icone.style.display = 'block';
     iconeSurgir1.style.display = 'none';
     iconeSurgir2.style.display = 'none';
